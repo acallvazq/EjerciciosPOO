@@ -2,10 +2,10 @@ package org.campusdual.bootcamp.ingenieros.ejercicio_09;
 
 public class Animal {
     //Atributos
-    private String reino;
-    private String tipo;
+    private String reino;  //mamifero, ave
+    private String tipo;  //gato, periquito
     private String raza;
-    private String medio;
+    private String medio;  //acuatico, aereo
 
     //Constructores
     public Animal(){
