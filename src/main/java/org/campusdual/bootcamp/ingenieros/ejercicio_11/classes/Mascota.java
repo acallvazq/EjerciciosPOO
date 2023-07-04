@@ -1,4 +1,4 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_11;
+package org.campusdual.bootcamp.ingenieros.ejercicio_11.classes;
 
 public class Mascota extends Animal implements Apropiable {
     //Atributos
@@ -26,7 +26,7 @@ public class Mascota extends Animal implements Apropiable {
     @Override
     public String toString() {
         return "Mascota{" +
-                "nombre='" + nombre + '\'' +
+                "nombre='" + nombre + '\'' + ", Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
                 ", propietario='" + propietario + '\'' +
                 '}';
     }
