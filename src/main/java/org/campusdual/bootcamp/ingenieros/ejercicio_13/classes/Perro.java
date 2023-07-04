@@ -19,6 +19,15 @@ public class Perro extends Mascota {
 
     //Metodos
     @Override
+    public String reproducirSonido(){
+        return "Guau";
+    }
+
+    @Override
+    public String desplazarse(){
+        return "Corriendo";
+    }
+    @Override
     public String toString() {
         return "Perro{" +
                 "nombre='" + super.getNombre() + '\'' + ", Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +

@@ -18,6 +18,16 @@ public class Gato extends Mascota {
 
     //Metodos
     @Override
+    public String reproducirSonido(){
+        return "Miau";
+    }
+
+    @Override
+    public String desplazarse(){
+        return "Caminando";
+    }
+
+    @Override
     public String toString() {
         return "Gato{" +
                 "nombre='" + super.getNombre() + '\'' + ", Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +

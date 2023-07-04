@@ -14,6 +14,14 @@ public class AnimalSalvaje extends Animal {
 
     //Metodos
     @Override
+    public String reproducirSonido(){
+        return "";
+    }
+    @Override
+    public String desplazarse(){
+        return "";
+    }
+    @Override
     public String toString() {
         return "AnimalSalvaje{"+ "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
                 "}";

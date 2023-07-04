@@ -14,6 +14,16 @@ public class Oveja extends AnimaldeGranja {
 
     //Metodos
     @Override
+    public String reproducirSonido(){
+        return "Bee";
+    }
+
+    @Override
+    public String desplazarse(){
+        return "Corriendo";
+    }
+
+    @Override
     public String toString() {
         return "Oveja{" + "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +

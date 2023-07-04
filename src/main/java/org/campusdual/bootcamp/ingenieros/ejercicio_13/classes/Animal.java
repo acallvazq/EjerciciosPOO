@@ -1,6 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
-public class Animal implements Cloneable{
+public abstract class Animal implements Cloneable{
     //Atributos
     private String reino;  //mamifero, ave
     private String tipo;  //gato, periquito
@@ -42,6 +42,10 @@ public class Animal implements Cloneable{
                 ", medio='" + medio + '\'' +
                 '}';
     }
+
+    //Metodos abstractos
+    public abstract String reproducirSonido();
+    public abstract String desplazarse();
 
     //Getters y Setters
     public String getReino() {

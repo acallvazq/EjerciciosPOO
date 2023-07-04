@@ -14,6 +14,15 @@ public class Vaca extends AnimaldeGranja {
 
     //Metodos
     @Override
+    public String reproducirSonido(){
+        return "Muuu";
+    }
+
+    @Override
+    public String desplazarse(){
+        return "Caminando";
+    }
+    @Override
     public String toString() {
         return "Vaca{" + "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
