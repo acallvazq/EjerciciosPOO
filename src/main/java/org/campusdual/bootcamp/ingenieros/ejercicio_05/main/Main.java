@@ -4,7 +4,7 @@ import org.campusdual.bootcamp.ingenieros.ejercicio_05.classes.Input;
 
 public class Main {
     public static void main(String[] args) {
-        double numero = Input.real("Introduce un numero entero: ");
+        double numero = Input.real("Introduce un numero decimal: ");
 
         String cadena = String.valueOf(numero);
         float decimal = Float.parseFloat(cadena.substring(cadena.indexOf('.')));
