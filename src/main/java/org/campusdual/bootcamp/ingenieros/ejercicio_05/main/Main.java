@@ -1,7 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_05.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_05.classes.Input;
-
+import org.campusdual.bootcamp.ingenieros.util.Input;
 public class Main {
     public static void main(String[] args) {
         double numero = Input.real("Introduce un numero decimal: ");

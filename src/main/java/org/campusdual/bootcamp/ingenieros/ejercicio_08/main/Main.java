@@ -1,6 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_08.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_08.classes.Input;
+import org.campusdual.bootcamp.ingenieros.util.Input;
 import java.util.Stack;
 
 public class Main {
@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         boolean salida = true;
-        caratula();
+        imprimirCaratula();
 
         do{
             System.out.println("\n" + "A) Registrar un numero");
@@ -34,19 +34,18 @@ public class Main {
                     break;
             }
         }while(salida);
-
     }
 
-    private static void caratula(){
+    private static void imprimirCaratula(){
         String titulo = "MENU DE OPCIONES";
         for(int i = 0; i < 50; i++) System.out.print('-');
-        System.out.print("\n|");
+        System.out.print("\n" + "|");
         for(int i = 0; i < (50-(titulo).length()-2)/2; i++) System.out.print(" ");
         System.out.print(titulo);
         for(int i = 0; i < (50-(titulo).length()-2)/2; i++) System.out.print(" ");
-        System.out.print("|\n");
+        System.out.print("|" + "\n");
         for(int i = 0; i < 50; i++) System.out.print('-');
-        System.out.print("\n");
+        System.out.println();
     }
 
     private static void registrarNumero(){
@@ -69,10 +68,10 @@ public class Main {
     }
 
     private static void listarNumeros(){
-        System.out.println("\nContenido actual de la lista: ");
+        System.out.print("\n" + "Contenido actual de la lista: ");
         for(double numero: numeros){
             System.out.print(numero + " ");
         }
-        System.out.print("\n");
+        System.out.println();
     }
 }

@@ -1,4 +1,4 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_06.classes;
+package org.campusdual.bootcamp.ingenieros.util;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

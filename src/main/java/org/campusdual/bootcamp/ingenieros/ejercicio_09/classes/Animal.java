@@ -1,4 +1,4 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_09;
+package org.campusdual.bootcamp.ingenieros.ejercicio_09.classes;
 
 public class Animal {
     //Atributos
