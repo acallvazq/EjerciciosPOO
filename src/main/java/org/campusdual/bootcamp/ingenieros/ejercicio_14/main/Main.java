@@ -34,5 +34,9 @@ public class Main {
         Animal.animales.add(oveja1);
         Animal.animales.add(oveja2);
 
+        //Imprimir lista
+        for(ISexual animal: Animal.animales){
+            System.out.println(animal);
+        }
     }
 }

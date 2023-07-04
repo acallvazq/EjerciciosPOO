@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 13 hecho">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/AnimalSalvaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/AnimaldeGranja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Apropiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/ISexual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Mascota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Oveja.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/PezPayaso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Tucan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Vaca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/main/Main.java" afterDir="false" />
+    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 14 hecho. Pendiente de revisar los enum y no repetir clases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688420453552</updated>
       <workItem from="1688420455230" duration="2672000" />
-      <workItem from="1688454227621" duration="41708000" />
+      <workItem from="1688454227621" duration="41957000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -327,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688491903937</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Ejercicio 14 hecho. Pendiente de revisar los enum y no repetir clases">
+      <option name="closed" value="true" />
+      <created>1688498723714</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1688498723714</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +360,7 @@
     <MESSAGE value="Revisado ejercicio 12" />
     <MESSAGE value="@Override en setPropietario y getPropietario" />
     <MESSAGE value="Ejercicio 13 hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 13 hecho" />
+    <MESSAGE value="Ejercicio 14 hecho. Pendiente de revisar los enum y no repetir clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 14 hecho. Pendiente de revisar los enum y no repetir clases" />
   </component>
 </project>
