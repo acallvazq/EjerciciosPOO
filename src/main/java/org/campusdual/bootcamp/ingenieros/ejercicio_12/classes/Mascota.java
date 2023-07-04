@@ -44,9 +44,11 @@ public class Mascota extends Animal implements Apropiable {
     }
 
     //Metodos de la interfaz
+    @Override
     public String getPropietario(){
         return propietario;
     }
+    @Override
     public void setPropietario(String propietario){
         this.propietario = propietario;
     }

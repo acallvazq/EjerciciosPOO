@@ -1,7 +1,5 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_12.classes.Animal;
-
 public class Mascota extends Animal implements Apropiable {
     //Atributos
     private String nombre;
@@ -28,12 +26,10 @@ public class Mascota extends Animal implements Apropiable {
     }
 
     //Metodos
-
-
     @Override
     public String toString() {
         return "Mascota{" +
-                "nombre='" + nombre + '\'' +
+                "nombre='" + nombre + '\'' + ", Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
                 ", propietario='" + propietario + '\'' +
                 '}';
     }
@@ -48,9 +44,11 @@ public class Mascota extends Animal implements Apropiable {
     }
 
     //Metodos de la interfaz
+    @Override
     public String getPropietario(){
         return propietario;
     }
+    @Override
     public void setPropietario(String propietario){
         this.propietario = propietario;
     }

@@ -1,6 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
-public abstract class Animal implements Cloneable{
+public class Animal implements Cloneable{
     //Atributos
     private String reino;  //mamifero, ave
     private String tipo;  //gato, periquito
@@ -12,7 +12,6 @@ public abstract class Animal implements Cloneable{
 
     }
 
-    //Constructor de copia
     public Animal(String reino, String tipo, String raza, String medio){
         this.reino = reino;
         this.tipo = tipo;
@@ -20,17 +19,18 @@ public abstract class Animal implements Cloneable{
         this.medio = medio;
     }
 
+    //Constructor de copia
+    public Animal(Animal animal){
+        this.reino = animal.reino;
+        this.tipo = animal.tipo;
+        this.raza = animal.raza;
+        this.medio = animal.medio;
+    }
+
     //Metodos
-    public abstract void reproducirSonido();
-    public abstract void desplazar();
     @Override
-    public Animal clone() {
-        try{
-            return (Animal) super.clone();
-        }catch(CloneNotSupportedException e){
-            e.printStackTrace();
-            return null;
-        }
+    public Animal clone() throws CloneNotSupportedException {
+        return (Animal) super.clone();
     }
 
     @Override

@@ -23,9 +23,11 @@ public class AnimaldeGranja extends Animal implements Apropiable{
     }
 
     //Getters y Setters
+    @Override
     public String getPropietario(){
         return propietario;
     }
+    @Override
     public void setPropietario(String propietario){
         this.propietario = propietario;
     }

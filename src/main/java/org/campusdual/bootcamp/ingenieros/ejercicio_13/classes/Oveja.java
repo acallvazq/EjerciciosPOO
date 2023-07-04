@@ -8,11 +8,17 @@ public class Oveja extends AnimaldeGranja {
 
     }
 
-    public Oveja(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
-        super(reino, tipo, raza, medio, nombre, propietario);
+    public Oveja(String reino, String tipo, String raza, String medio, String propietario) {
+        super(reino, tipo, raza, medio, propietario);
     }
 
     //Metodos
+    @Override
+    public String toString() {
+        return "Oveja{" + "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
+                ", propietario='" + super.getPropietario() + '\'' +
+                '}';
+    }
 
 
     //Getters y Setters
