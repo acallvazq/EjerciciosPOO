@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 12 sin terminar">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/Animal.java" afterDir="false" />
+    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 12 y 13 sin terminar">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimalSalvaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimaldeGranja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Apropiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Oveja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Perro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/PezPayaso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Tucan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Vaca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/ryzen/IdeaProjects/EjerciciosPOO/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12",
+    "last_opened_file_path": "/home/ryzen/IdeaProjects/EjerciciosPOO/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -47,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes" />
       <recent name="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12" />
       <recent name="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_01" />
     </key>
@@ -143,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688420453552</updated>
       <workItem from="1688420455230" duration="2672000" />
-      <workItem from="1688454227621" duration="17476000" />
+      <workItem from="1688454227621" duration="18953000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -249,11 +261,30 @@
       <option name="project" value="LOCAL" />
       <updated>1688471623637</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ejercicio 12 y 13 sin terminar">
+      <option name="closed" value="true" />
+      <created>1688475004020</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688475004020</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
@@ -268,6 +299,7 @@
     <MESSAGE value="Ejercicio 10 hecho" />
     <MESSAGE value="Ejercicio 11 hecho" />
     <MESSAGE value="Ejercicio 12 sin terminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 12 sin terminar" />
+    <MESSAGE value="Ejercicio 12 y 13 sin terminar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 12 y 13 sin terminar" />
   </component>
 </project>
