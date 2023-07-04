@@ -12,6 +12,10 @@ public class Perro extends Mascota {
         super(nombre, propietario);
     }
 
+    public Perro(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
+        super(reino, tipo, raza, medio, nombre, propietario);
+    }
+
 
     //Metodos
 

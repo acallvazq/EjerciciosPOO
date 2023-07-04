@@ -1,6 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_12.Animal;
+import org.campusdual.bootcamp.ingenieros.ejercicio_12.classes.Animal;
 
 public class AnimaldeGranja extends Animal implements Apropiable {
     //Atributos

@@ -15,7 +15,6 @@ public class AnimaldeGranja extends Animal implements Apropiable{
     }
 
     //Metodos
-
     @Override
     public String toString() {
         return "AnimaldeGranja{" + "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
