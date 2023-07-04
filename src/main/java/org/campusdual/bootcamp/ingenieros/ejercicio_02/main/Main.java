@@ -1,6 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_02.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_01.Input;
+import org.campusdual.bootcamp.ingenieros.ejercicio_02.classes.Input;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -13,7 +13,7 @@ public class Main {
         primos = obtenerPrimos();
 
         //Pedir numero al usuario
-        int numero = Input.integer("Escriba un numero entero: ");
+        int numero = Input.integer("Introduce un numero entero: ");
 
         //Comprobar si es multiplo de alguno de los primos hallados
         comprobarMultiplo(primos, numero);
