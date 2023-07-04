@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 10 hecho">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_10/Animal.java" afterDir="false" />
+    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 11 hecho">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/AnimaldeGranja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/Apropiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/Mascota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,11 +53,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_01" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_11" />
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_10" />
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_08.classes" />
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_08" />
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_07.classes" />
-      <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_07" />
     </key>
   </component>
   <component name="RunManager" selected="Application.org.campusdual.bootcamp.ingenieros.ejercicio_08.main.Main">
@@ -141,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688420453552</updated>
       <workItem from="1688420455230" duration="2672000" />
-      <workItem from="1688454227621" duration="13392000" />
+      <workItem from="1688454227621" duration="15223000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -223,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688466355772</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ejercicio 10 hecho">
+      <option name="closed" value="true" />
+      <created>1688467840170</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688467840170</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +252,7 @@
     <MESSAGE value="Ejercicio 8 hecho" />
     <MESSAGE value="Ejercicio 9 hecho" />
     <MESSAGE value="Ejercicio 10 hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 10 hecho" />
+    <MESSAGE value="Ejercicio 11 hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 11 hecho" />
   </component>
 </project>
