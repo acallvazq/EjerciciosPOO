@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 14 hecho. Pendiente de revisar los enum y no repetir clases">
+    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 15 hecho. Pendiente de revisar los enum y no repetir clases">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Animal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/AnimalSalvaje.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/AnimaldeGranja.java" afterDir="false" />
@@ -159,7 +159,7 @@
       <updated>1688420453552</updated>
       <workItem from="1688420455230" duration="2672000" />
       <workItem from="1688454227621" duration="43564000" />
-      <workItem from="1688584452184" duration="2201000" />
+      <workItem from="1688584452184" duration="2891000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -345,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688498987063</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Ejercicio 15 hecho. Pendiente de revisar los enum y no repetir clases">
+      <option name="closed" value="true" />
+      <created>1688594944011</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1688594944011</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +391,7 @@
     <MESSAGE value="@Override en setPropietario y getPropietario" />
     <MESSAGE value="Ejercicio 13 hecho" />
     <MESSAGE value="Ejercicio 14 hecho. Pendiente de revisar los enum y no repetir clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 14 hecho. Pendiente de revisar los enum y no repetir clases" />
+    <MESSAGE value="Ejercicio 15 hecho. Pendiente de revisar los enum y no repetir clases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 15 hecho. Pendiente de revisar los enum y no repetir clases" />
   </component>
 </project>
