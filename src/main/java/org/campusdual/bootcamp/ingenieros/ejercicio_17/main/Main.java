@@ -1,4 +1,4 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_16.main;
+package org.campusdual.bootcamp.ingenieros.ejercicio_17.main;
 
 import org.campusdual.bootcamp.ingenieros.ejercicio_16.classes.*;
 
@@ -75,7 +75,7 @@ public class Main {
         String concatena;
         boolean tieneCrias = false;
 
-        for(int i = 1; i <= 2; i++) {
+        for(int i = 1; i <= 4; i++) {
             System.out.println("\n\n[Consultoria] -> Agregando la generacion " + i + "...");
 
             for (ISexual animal1 : Animal.animales) {
