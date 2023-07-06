@@ -14,12 +14,12 @@ public class Gato extends Mascota {
         super(nombre, propietario);
     }
 
-    public Gato(String raza, String medio, Genero genero, String nombre, String propietario) {
+    /*public Gato(String raza, String medio, Genero genero, String nombre, String propietario) {
         super("Mamifero", "Gato", raza, medio, genero, nombre, propietario);
-    }
+    }*/
 
-    public Gato(Gato gato) {
-        super("Mamifero", "Gato", gato.getRaza(), gato.getMedio(), gato.getGenero(), gato.getNombre(), gato.getPropietario());
+    public Gato(String raza, String medio, Genero genero, int idPadre, int idMadre, String nombre, String propietario) {
+        super("Mamifero", "Gato", raza, medio, genero, idPadre, idMadre, nombre, propietario);
     }
 
     //Metodos
@@ -27,10 +27,21 @@ public class Gato extends Mascota {
     public Animal reproducirse(ISexual pareja){
         if(this.getClass() == pareja.getClass() && this.getGenero() != ((Animal) pareja).getGenero()){
             Random random = new Random();
+            Genero generoCria;
+            int idPadre, idMadre;
             int aleatorio = random.nextInt(2);
 
-            if(aleatorio == 0) return new Gato(this);
-            else return new Gato((Gato) pareja);
+            if(aleatorio == 0) generoCria = this.getGenero();
+            else generoCria = ((Animal) pareja).getGenero();
+
+            if(this.getGenero() == Genero.Macho){
+                idPadre = this.getId();
+                idMadre = ((Animal) pareja).getId();
+            }else{
+                idPadre = ((Animal) pareja).getId();
+                idMadre = this.getId();
+            }
+            return new Gato(this.getRaza(), this.getMedio(), generoCria, idPadre, idMadre, this.getNombre(), this.getPropietario());
         }else System.out.println("No se pueden reproducir");
         return null;
     }

@@ -25,8 +25,8 @@ public class Mascota extends Animal implements Apropiable {
         super(reino, tipo, raza, medio, genero);
     }
 
-    public Mascota(String reino, String tipo, String raza, String medio, Genero genero, String nombre, String propietario) {
-        super(reino, tipo, raza, medio, genero);
+    public Mascota(String reino, String tipo, String raza, String medio, Genero genero, int idPadre, int idMadre, String nombre, String propietario) {
+        super(reino, tipo, raza, medio, genero, idPadre, idMadre);
         this.nombre = nombre;
         this.propietario = propietario;
     }

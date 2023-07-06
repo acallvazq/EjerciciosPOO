@@ -14,8 +14,8 @@ public class Oveja extends AnimaldeGranja {
         super("Mamifero", "Oveja", raza, medio, genero, propietario);
     }
 
-    public Oveja(Oveja oveja) {
-        super("Mamifero", "Oveja", oveja.getRaza(), oveja.getMedio(), oveja.getGenero(), oveja.getPropietario());
+    public Oveja(String raza, String medio, Genero genero, int idPadre, int idMadre, String propietario) {
+        super("Mamifero", "Oveja", raza, medio, genero, idPadre, idMadre, propietario);
     }
 
     //Metodos
@@ -23,10 +23,21 @@ public class Oveja extends AnimaldeGranja {
     public Animal reproducirse(ISexual pareja){
         if(this.getClass() == pareja.getClass() && this.getGenero() != ((Animal) pareja).getGenero()){
             Random random = new Random();
+            Genero generoCria;
+            int idPadre, idMadre;
             int aleatorio = random.nextInt(2);
 
-            if(aleatorio == 0) return new Oveja(this);
-            else return new Oveja((Oveja) pareja);
+            if(aleatorio == 0) generoCria = this.getGenero();
+            else generoCria = ((Animal) pareja).getGenero();
+
+            if(this.getGenero() == Genero.Macho){
+                idPadre = this.getId();
+                idMadre = ((Animal) pareja).getId();
+            }else{
+                idPadre = ((Animal) pareja).getId();
+                idMadre = this.getId();
+            }
+            return new Oveja(this.getRaza(), this.getMedio(), generoCria, idPadre, idMadre, this.getPropietario());
         }else System.out.println("No se pueden reproducir");
         return null;
     }

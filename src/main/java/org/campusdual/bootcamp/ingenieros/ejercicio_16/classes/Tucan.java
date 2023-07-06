@@ -14,8 +14,8 @@ public class Tucan extends AnimalSalvaje {
         super("Ave", "Tucan", raza, medio, genero);
     }
 
-    public Tucan(Tucan tucan){
-        super("Ave", "Tucan", tucan.getRaza(), tucan.getMedio(), tucan.getGenero());
+    public Tucan(String raza, String medio, Genero genero, int idPadre, int idMadre) {
+        super("Ave", "Tucan", raza, medio, genero, idPadre, idMadre);
     }
 
     //Metodos
@@ -23,10 +23,21 @@ public class Tucan extends AnimalSalvaje {
     public Animal reproducirse(ISexual pareja){
         if(this.getClass() == pareja.getClass() && this.getGenero() != ((Animal) pareja).getGenero()){
             Random random = new Random();
+            Genero generoCria;
+            int idPadre, idMadre;
             int aleatorio = random.nextInt(2);
 
-            if(aleatorio == 0) return new Tucan(this);
-            else return new Tucan((Tucan)pareja);
+            if(aleatorio == 0) generoCria = this.getGenero();
+            else generoCria = ((Animal) pareja).getGenero();
+
+            if(this.getGenero() == Genero.Macho){
+                idPadre = this.getId();
+                idMadre = ((Animal) pareja).getId();
+            }else{
+                idPadre = ((Animal) pareja).getId();
+                idMadre = this.getId();
+            }
+            return new Tucan(this.getRaza(), this.getMedio(), generoCria, idPadre, idMadre);
         }else System.out.println("No se pueden reproducir");
         return null;
     }

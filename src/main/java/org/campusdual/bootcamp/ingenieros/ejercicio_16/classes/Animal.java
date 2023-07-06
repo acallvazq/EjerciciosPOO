@@ -18,6 +18,8 @@ public abstract class Animal implements Cloneable, ISexual {
     private Genero genero;
     private int id;
     private static AtomicInteger idAtomico = new AtomicInteger(0);
+    private int idPadre;
+    private int idMadre;
 
     //Listas
     public static List<ISexual> animales = new ArrayList<>();
@@ -34,6 +36,17 @@ public abstract class Animal implements Cloneable, ISexual {
         this.medio = medio;
         this.genero = genero;
         this.id = generaId();
+    }
+
+    public Animal(String reino, String tipo, String raza, String medio, Genero genero, int idPadre, int idMadre){
+        this.reino = reino;
+        this.tipo = tipo;
+        this.raza = raza;
+        this.medio = medio;
+        this.genero = genero;
+        this.id = generaId();
+        this.idPadre = idPadre;
+        this.idMadre = idMadre;
     }
 
     //Constructor de copia
@@ -129,4 +142,19 @@ public abstract class Animal implements Cloneable, ISexual {
         this.id = id;
     }
 
+    public int getIdPadre() {
+        return idPadre;
+    }
+
+    public void setIdPadre(int idPadre) {
+        this.idPadre = idPadre;
+    }
+
+    public int getIdMadre() {
+        return idMadre;
+    }
+
+    public void setIdMadre(int idMadre) {
+        this.idMadre = idMadre;
+    }
 }

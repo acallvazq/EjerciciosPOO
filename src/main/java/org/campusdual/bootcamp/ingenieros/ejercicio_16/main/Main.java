@@ -12,18 +12,18 @@ public class Main {
 
     public static void main(String[] args) {
         //Crear los objetos
-        Perro perro1 = new Perro("Pastor aleman", "Terrestre", Animal.Genero.Macho, "Pluto", "Manuel");
-        Perro perro2 = new Perro("Pator suizo", "Terrestre", Animal.Genero.Hembra, "Kida", "Manuel");
-        Gato gato1 = new Gato("Snowshoe", "Terrestre", Animal.Genero.Macho, "Mochuelo", "Alba");
-        Gato gato2 = new Gato("American Shorthair", "Terrestre", Animal.Genero.Hembra, "Lana", "Alba");
-        Tucan tucan1 = new Tucan("Toco", "Aereo", Animal.Genero.Macho);
-        Tucan tucan2 = new Tucan("Toco", "Aereo", Animal.Genero.Hembra);
-        PezPayaso pez1 = new PezPayaso("Comun", "Acuatico", Animal.Genero.Macho);
-        PezPayaso pez2 = new PezPayaso("Comun", "Acuatico", Animal.Genero.Hembra);
-        Vaca vaca1 = new Vaca("Rubia gallega", "Terrestre", Animal.Genero.Macho, "Francisco");
-        Vaca vaca2 = new Vaca("Rubia gallega", "Terrestre", Animal.Genero.Hembra, "Francisco");
-        Oveja oveja1 = new Oveja("Texel", "Terrestre", Animal.Genero.Macho, "Francisco");
-        Oveja oveja2 = new Oveja("Texel", "Terrestre", Animal.Genero.Hembra, "Francisco");
+        Perro perro1 = new Perro("Pastor aleman", "Terrestre", Animal.Genero.Macho, -1, -1, "Pluto", "Manuel");
+        Perro perro2 = new Perro("Pator suizo", "Terrestre", Animal.Genero.Hembra, -1, -1, "Kida", "Manuel");
+        Gato gato1 = new Gato("Snowshoe", "Terrestre", Animal.Genero.Macho, -1, -1, "Mochuelo", "Alba");
+        Gato gato2 = new Gato("American Shorthair", "Terrestre", Animal.Genero.Hembra, -1, -1, "Lana", "Alba");
+        Tucan tucan1 = new Tucan("Toco", "Aereo", Animal.Genero.Macho, -1, -1);
+        Tucan tucan2 = new Tucan("Toco", "Aereo", Animal.Genero.Hembra, -1, -1);
+        PezPayaso pez1 = new PezPayaso("Comun", "Acuatico", Animal.Genero.Macho, -1, -1);
+        PezPayaso pez2 = new PezPayaso("Comun", "Acuatico", Animal.Genero.Hembra, -1, -1);
+        Vaca vaca1 = new Vaca("Rubia gallega", "Terrestre", Animal.Genero.Macho, -1, -1, "Francisco");
+        Vaca vaca2 = new Vaca("Rubia gallega", "Terrestre", Animal.Genero.Hembra, -1, -1, "Francisco");
+        Oveja oveja1 = new Oveja("Texel", "Terrestre", Animal.Genero.Macho, -1, -1, "Francisco");
+        Oveja oveja2 = new Oveja("Texel", "Terrestre", Animal.Genero.Hembra, -1, -1, "Francisco");
 
         //Guardar los animales en la lista
         Animal.animales.add(perro1);
@@ -58,6 +58,20 @@ public class Main {
                 for (ISexual animal2 : Animal.animales) {
                     if ((animal2.getClass() == animal1.getClass()) && ((Animal) animal2).getGenero() != ((Animal) animal1).getGenero() && ((Animal) animal1).getGenero() == Animal.Genero.Macho) {
                         System.out.println("[Servidor] -> Preparandose " + ((Animal) animal1).getId() + " y " + ((Animal) animal2).getId());
+
+                        if(((Animal) animal1).getIdPadre() == ((Animal) animal2).getIdPadre() || ((Animal) animal1).getIdMadre() == ((Animal) animal2).getIdMadre()) {
+                            if (((Animal) animal1).getIdPadre() != -1 || ((Animal) animal2).getIdPadre() != -1){
+                                System.out.println("[Base de datos] -> " + ((Animal) animal1).getId() + " y " + ((Animal) animal2).getId() + " son hermanos. Saliendo...");
+                                continue;
+                            }
+
+                        }
+
+                        if(((Animal) animal1).getIdPadre() == ((Animal) animal2).getId() || ((Animal) animal1).getIdMadre() == ((Animal) animal2).getId() || ((Animal) animal2).getIdPadre() == ((Animal) animal1).getId() || ((Animal) animal2).getIdMadre() == ((Animal) animal1).getId()){
+                            System.out.println("[Base de datos] -> " + ((Animal) animal1).getId() + " y " + ((Animal) animal2).getId() + " son padre e hijo. Saliendo...");
+                            continue;
+                        }
+
                         String id1 = String.valueOf(((Animal) animal1).getId());
                         String id2 = String.valueOf(((Animal) animal2).getId());
 
