@@ -36,7 +36,5 @@ public class Main {
         for (ISexual animal1 : Animal.animales) {
             System.out.println(animal1);
         }
-
     }
-
 }
