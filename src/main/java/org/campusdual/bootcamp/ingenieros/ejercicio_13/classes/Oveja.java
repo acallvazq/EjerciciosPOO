@@ -12,6 +12,10 @@ public class Oveja extends AnimaldeGranja {
         super(reino, tipo, raza, medio, propietario);
     }
 
+    public Oveja(String raza, String medio, Genero genero, String propietario) {
+        super("Mamifero", "Oveja", raza, medio, genero, propietario);
+    }
+
     //Metodos
     @Override
     public String reproducirSonido(){
@@ -25,7 +29,12 @@ public class Oveja extends AnimaldeGranja {
 
     @Override
     public String toString() {
-        return "Oveja{" + "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
+        return "Oveja{" +
+                "Reino='" + super.getReino() + '\'' +
+                ", tipo='" + super.getTipo() + '\'' +
+                ", raza='" + super.getRaza() + '\'' +
+                ", medio='" + super.getMedio() + '\'' +
+                ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
                 '}';
     }

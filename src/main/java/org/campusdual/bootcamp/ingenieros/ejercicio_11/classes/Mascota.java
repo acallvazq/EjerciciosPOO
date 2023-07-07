@@ -1,5 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_11.classes;
 
+import org.campusdual.bootcamp.ingenieros.ejercicio_09.classes.Animal;
+
 public class Mascota extends Animal implements Apropiable {
     //Atributos
     private String nombre;
@@ -21,8 +23,6 @@ public class Mascota extends Animal implements Apropiable {
     }
 
     //Metodos
-
-
     @Override
     public String toString() {
         return "Mascota{" +

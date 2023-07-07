@@ -1,6 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_10.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_10.classes.Animal;
+import org.campusdual.bootcamp.ingenieros.ejercicio_09.classes.Animal;
 
 public class Main {
 

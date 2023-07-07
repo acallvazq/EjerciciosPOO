@@ -1,6 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_09.classes;
 
-public class Animal {
+public class Animal implements Cloneable {
     //Atributos
     private String reino;  //mamifero, ave
     private String tipo;  //gato, periquito
@@ -19,7 +19,20 @@ public class Animal {
         this.medio = medio;
     }
 
+    //Constructor de copia
+    public Animal(Animal animal){
+        this.reino = animal.reino;
+        this.tipo = animal.tipo;
+        this.raza = animal.raza;
+        this.medio = animal.medio;
+    }
+
     //Metodos
+    @Override
+    public Animal clone() throws CloneNotSupportedException {
+        return (Animal) super.clone();
+    }
+
     @Override
     public String toString() {
         return "Animal{" +

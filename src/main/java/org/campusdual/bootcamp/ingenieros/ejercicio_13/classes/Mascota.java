@@ -1,5 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
+import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Apropiable;
+
 public class Mascota extends Animal implements Apropiable {
     //Atributos
     private String nombre;
@@ -10,17 +12,22 @@ public class Mascota extends Animal implements Apropiable {
 
     }
 
-    public Mascota(String nombre, String propietario) {
-        this.nombre = nombre;
-        this.propietario = propietario;
-    }
-
     public Mascota(String reino, String tipo, String raza, String medio) {
         super(reino, tipo, raza, medio);
     }
 
+    public Mascota(String reino, String tipo, String raza, String medio, Genero genero) {
+        super(reino, tipo, raza, medio, genero);
+    }
+
     public Mascota(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
         super(reino, tipo, raza, medio);
+        this.nombre = nombre;
+        this.propietario = propietario;
+    }
+
+    public Mascota(String reino, String tipo, String raza, String medio, Genero genero, String nombre, String propietario) {
+        super(reino, tipo, raza, medio, genero);
         this.nombre = nombre;
         this.propietario = propietario;
     }
@@ -37,7 +44,12 @@ public class Mascota extends Animal implements Apropiable {
     @Override
     public String toString() {
         return "Mascota{" +
-                "nombre='" + nombre + '\'' + ", Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
+                "nombre='" + nombre + '\'' +
+                ", Reino='" + super.getReino() + '\'' +
+                ", tipo='" + super.getTipo() + '\'' +
+                ", raza='" + super.getRaza() + '\'' +
+                ", medio='" + super.getMedio() + '\'' +
+                ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + propietario + '\'' +
                 '}';
     }

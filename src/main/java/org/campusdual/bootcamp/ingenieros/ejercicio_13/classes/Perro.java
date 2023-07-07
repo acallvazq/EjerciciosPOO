@@ -8,12 +8,12 @@ public class Perro extends Mascota {
 
     }
 
-    public Perro(String nombre, String propietario) {
-        super(nombre, propietario);
-    }
-
     public Perro(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
         super(reino, tipo, raza, medio, nombre, propietario);
+    }
+
+    public Perro(String raza, String medio, Genero genero, String nombre, String propietario) {
+        super("Mamifero", "Perro", raza, medio, genero, nombre, propietario);
     }
 
 
@@ -30,7 +30,12 @@ public class Perro extends Mascota {
     @Override
     public String toString() {
         return "Perro{" +
-                "nombre='" + super.getNombre() + '\'' + ", Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
+                "nombre='" + super.getNombre() + '\'' +
+                ", Reino='" + super.getReino() + '\'' +
+                ", tipo='" + super.getTipo() + '\'' +
+                ", raza='" + super.getRaza() + '\'' +
+                ", medio='" + super.getMedio() + '\'' +
+                ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
                 '}';
     }

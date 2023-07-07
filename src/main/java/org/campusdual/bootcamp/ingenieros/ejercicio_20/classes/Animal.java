@@ -1,22 +1,39 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_10.classes;
+package org.campusdual.bootcamp.ingenieros.ejercicio_20.classes;
 
-public class Animal implements Cloneable{
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
+
+public abstract class Animal implements Cloneable, ISexual {
+    public enum Genero {
+        Macho,
+        Hembra
+    }
     //Atributos
+
     private String reino;  //mamifero, ave
     private String tipo;  //gato, periquito
     private String raza;
     private String medio;  //acuatico, aereo
+    private Genero genero;
+    private int id;
+    private static AtomicInteger idAtomico = new AtomicInteger(0);
+
+    //Listas
+    public static List<ISexual> animales = new ArrayList<>();
 
     //Constructores
     public Animal(){
 
     }
 
-    public Animal(String reino, String tipo, String raza, String medio){
+    public Animal(String reino, String tipo, String raza, String medio, Genero genero){
         this.reino = reino;
         this.tipo = tipo;
         this.raza = raza;
         this.medio = medio;
+        this.genero = genero;
+        this.id = generaId();
     }
 
     //Constructor de copia
@@ -25,9 +42,23 @@ public class Animal implements Cloneable{
         this.tipo = animal.tipo;
         this.raza = animal.raza;
         this.medio = animal.medio;
+        this.genero = animal.genero;
+        this.id = animal.generaId();
     }
 
     //Metodos
+    public int generaId(){
+        return idAtomico.incrementAndGet();
+    }
+
+    @Override
+    public Animal reproducirse(ISexual pareja){
+        if(this.getClass() == pareja.getClass() && this.getGenero() != ((Animal) pareja).getGenero()){
+            System.out.println("Reproduciendo...");
+        }else System.out.println("No se pueden reproducir");
+        return null;
+    }
+
     @Override
     public Animal clone() throws CloneNotSupportedException {
         return (Animal) super.clone();
@@ -40,8 +71,14 @@ public class Animal implements Cloneable{
                 ", tipo='" + tipo + '\'' +
                 ", raza='" + raza + '\'' +
                 ", medio='" + medio + '\'' +
+                ", genero='" + genero + '\'' +
                 '}';
     }
+
+    //Metodos abstractos
+    public abstract String reproducirSonido();
+    public abstract String desplazarse();
+
 
     //Getters y Setters
     public String getReino() {
@@ -75,4 +112,21 @@ public class Animal implements Cloneable{
     public void setMedio(String medio) {
         this.medio = medio;
     }
+
+    public Genero getGenero() {
+        return genero;
+    }
+
+    public void setGenero(Genero genero) {
+        this.genero = genero;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
 }

@@ -1,8 +1,14 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_14.classes;
+package org.campusdual.bootcamp.ingenieros.ejercicio_20.classes;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AnimaldeGranja extends Animal implements Apropiable {
     //Atributos
     private String propietario;
+
+    //Listas
+    public static List<AnimaldeGranja> animalesGranja = new ArrayList<>();
 
     //Constructores
     public AnimaldeGranja(){
@@ -25,7 +31,13 @@ public class AnimaldeGranja extends Animal implements Apropiable {
     }
     @Override
     public String toString() {
-        return "AnimaldeGranja{" + "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' + ", genero='" + super.getGenero() + '\'' +
+        return "AnimaldeGranja{" +
+                "Reino='" + super.getReino() + '\'' +
+                ", tipo='" + super.getTipo() + '\'' +
+                ", raza='" + super.getRaza() + '\'' +
+                ", medio='" + super.getMedio() + '\'' +
+                ", genero='" + super.getGenero() + '\'' +
+                ", id='" + super.getId() + '\'' +
                 ", propietario='" + propietario + '\'' +
                 '}';
     }

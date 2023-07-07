@@ -8,12 +8,12 @@ public class Gato extends Mascota {
 
     }
 
-    public Gato(String nombre, String propietario) {
-        super(nombre, propietario);
-    }
-
     public Gato(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
         super(reino, tipo, raza, medio, nombre, propietario);
+    }
+
+    public Gato(String raza, String medio, Genero genero, String nombre, String propietario) {
+        super("Mamifero", "Gato", raza, medio, genero, nombre, propietario);
     }
 
     //Metodos
@@ -30,7 +30,12 @@ public class Gato extends Mascota {
     @Override
     public String toString() {
         return "Gato{" +
-                "nombre='" + super.getNombre() + '\'' + ", Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
+                "nombre='" + super.getNombre() + '\'' +
+                ", Reino='" + super.getReino() + '\'' +
+                ", tipo='" + super.getTipo() + '\'' +
+                ", raza='" + super.getRaza() + '\'' +
+                ", medio='" + super.getMedio() + '\'' +
+                ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
                 '}';
     }

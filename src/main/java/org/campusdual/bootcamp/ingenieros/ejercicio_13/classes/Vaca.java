@@ -12,6 +12,10 @@ public class Vaca extends AnimaldeGranja {
         super(reino, tipo, raza, medio, propietario);
     }
 
+    public Vaca(String raza, String medio, Genero genero, String propietario) {
+        super("Mamifero", "Vaca", raza, medio, genero, propietario);
+    }
+
     //Metodos
     @Override
     public String reproducirSonido(){
@@ -24,7 +28,12 @@ public class Vaca extends AnimaldeGranja {
     }
     @Override
     public String toString() {
-        return "Vaca{" + "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
+        return "Vaca{" +
+                "Reino='" + super.getReino() + '\'' +
+                ", tipo='" + super.getTipo() + '\'' +
+                ", raza='" + super.getRaza() + '\'' +
+                ", medio='" + super.getMedio() + '\'' +
+                ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
                 '}';
     }

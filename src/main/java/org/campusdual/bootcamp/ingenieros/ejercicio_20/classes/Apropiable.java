@@ -1,4 +1,4 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_14.classes;
+package org.campusdual.bootcamp.ingenieros.ejercicio_20.classes;
 
 public interface Apropiable{
     String getPropietario();

@@ -1,9 +1,15 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_14.classes;
+package org.campusdual.bootcamp.ingenieros.ejercicio_20.classes;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Mascota extends Animal implements Apropiable {
     //Atributos
     private String nombre;
     private String propietario;
+
+    //Listas
+    public static List<Mascota> mascotas = new ArrayList<>();
 
     //Constructores
     public Mascota() {
@@ -42,6 +48,7 @@ public class Mascota extends Animal implements Apropiable {
                 ", tipo='" + super.getTipo() + '\'' +
                 ", raza='" + super.getRaza() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
+                ", id='" + super.getId() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + propietario + '\'' +
                 '}';

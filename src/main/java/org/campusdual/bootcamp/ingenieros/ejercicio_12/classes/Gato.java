@@ -1,15 +1,13 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_12.classes;
 
+import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Mascota;
+
 public class Gato extends Mascota {
     //Atributos
 
     //Constructores
     public Gato() {
 
-    }
-
-    public Gato(String nombre, String propietario) {
-        super(nombre, propietario);
     }
 
     public Gato(String reino, String tipo, String raza, String medio, String nombre, String propietario) {

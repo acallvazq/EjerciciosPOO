@@ -1,5 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
+import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Apropiable;
 public class AnimaldeGranja extends Animal implements Apropiable {
     //Atributos
     private String propietario;
@@ -14,6 +15,11 @@ public class AnimaldeGranja extends Animal implements Apropiable {
         this.propietario = propietario;
     }
 
+    public AnimaldeGranja(String reino, String tipo, String raza, String medio, Genero genero, String propietario) {
+        super(reino, tipo, raza, medio, genero);
+        this.propietario = propietario;
+    }
+
     //Metodos
     @Override
     public String reproducirSonido(){
@@ -25,7 +31,12 @@ public class AnimaldeGranja extends Animal implements Apropiable {
     }
     @Override
     public String toString() {
-        return "AnimaldeGranja{" + "Reino='" + super.getReino() + '\'' + ", tipo='" + super.getTipo() + '\'' + ", raza='" + super.getRaza() + '\'' + ", medio='" + super.getMedio() + '\'' +
+        return "AnimaldeGranja{" +
+                "Reino='" + super.getReino() + '\'' +
+                ", tipo='" + super.getTipo() + '\'' +
+                ", raza='" + super.getRaza() + '\'' +
+                ", medio='" + super.getMedio() + '\'' +
+                ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + propietario + '\'' +
                 '}';
     }

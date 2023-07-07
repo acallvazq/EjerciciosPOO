@@ -1,5 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_12.classes;
 
+import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.AnimaldeGranja;
 public class Oveja extends AnimaldeGranja {
     //Atributos
 

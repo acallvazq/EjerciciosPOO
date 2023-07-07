@@ -1,7 +1,6 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_14.main;
+package org.campusdual.bootcamp.ingenieros.ejercicio_20.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_13.classes.*;
-import org.campusdual.bootcamp.ingenieros.ejercicio_14.classes.ISexual;
+import org.campusdual.bootcamp.ingenieros.ejercicio_20.classes.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,9 +32,8 @@ public class Main {
         Animal.animales.add(oveja1);
         Animal.animales.add(oveja2);
 
-        //Imprimir lista
-        for(ISexual animal: Animal.animales){
-            System.out.println(animal);
-        }
+        //Guardar en CSV
+        AnimalCSV csv = new AnimalCSV("animales.csv");
+        csv.guardarDatos(Animal.animales);
     }
 }

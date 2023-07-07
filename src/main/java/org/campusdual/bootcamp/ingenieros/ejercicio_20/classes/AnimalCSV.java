@@ -1,4 +1,4 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_19.classes;
+package org.campusdual.bootcamp.ingenieros.ejercicio_20.classes;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -59,4 +59,15 @@ public class AnimalCSV {
         }
         System.out.println("Los animales se han guardado con exito.");
     }
+/*
+    public List<ISexual> cargarDatos(){
+        List<ISexual> animales = new ArrayList<>();
+
+        try{
+            //CSVParser parser = new CSVParser(new FileReader(ruta), CSVFormat.DEFAULT.withHeader());
+
+        }catch(IOException ioe){
+            System.out.println(ioe.getMessage());
+        }
+    }*/
 }

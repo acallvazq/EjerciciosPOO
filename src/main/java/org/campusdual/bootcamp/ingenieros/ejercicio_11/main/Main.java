@@ -1,8 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_11.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Animal;
-import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.AnimaldeGranja;
-import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Mascota;
+import org.campusdual.bootcamp.ingenieros.ejercicio_09.classes.Animal;
+import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,4 +17,5 @@ public class Main {
         System.out.println("Oveja: " + oveja);
         System.out.println("Gato: " + gato);
     }
+
 }

@@ -1,4 +1,6 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_14.classes;
+package org.campusdual.bootcamp.ingenieros.ejercicio_20.classes;
+
+import java.util.Random;
 
 public class Gato extends Mascota {
     //Atributos
@@ -16,7 +18,22 @@ public class Gato extends Mascota {
         super("Mamifero", "Gato", raza, medio, genero, nombre, propietario);
     }
 
+    public Gato(Gato gato) {
+        super("Mamifero", "Gato", gato.getRaza(), gato.getMedio(), gato.getGenero(), gato.getNombre(), gato.getPropietario());
+    }
+
     //Metodos
+    @Override
+    public Animal reproducirse(ISexual pareja){
+        if(this.getClass() == pareja.getClass() && this.getGenero() != ((Animal) pareja).getGenero()){
+            Random random = new Random();
+            int aleatorio = random.nextInt(2);
+
+            if(aleatorio == 0) return new Gato(this);
+            else return new Gato((Gato) pareja);
+        }else System.out.println("No se pueden reproducir");
+        return null;
+    }
     @Override
     public String reproducirSonido(){
         return "Miau";

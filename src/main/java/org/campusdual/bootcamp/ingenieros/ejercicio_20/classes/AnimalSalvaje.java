@@ -1,7 +1,13 @@
-package org.campusdual.bootcamp.ingenieros.ejercicio_14.classes;
+package org.campusdual.bootcamp.ingenieros.ejercicio_20.classes;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AnimalSalvaje extends Animal {
     //Atributos
+
+    //Listas
+    public static List<AnimalSalvaje> animaleSalvajes = new ArrayList<>();
 
     //Constructores
     public AnimalSalvaje() {
@@ -29,6 +35,7 @@ public class AnimalSalvaje extends Animal {
                 ", raza='" + super.getRaza() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
+                ", id='" + super.getId() + '\'' +
                 "}";
     }
 
