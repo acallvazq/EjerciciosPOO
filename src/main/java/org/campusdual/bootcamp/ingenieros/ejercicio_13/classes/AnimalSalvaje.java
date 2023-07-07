@@ -1,7 +1,13 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AnimalSalvaje extends Animal {
     //Atributos
+
+    //Listas
+    public static List<AnimalSalvaje> animaleSalvajes = new ArrayList<>();
 
     //Constructores
     public AnimalSalvaje() {

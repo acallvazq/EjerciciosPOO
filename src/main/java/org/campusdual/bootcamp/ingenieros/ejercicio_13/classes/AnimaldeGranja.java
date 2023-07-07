@@ -1,9 +1,15 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
 import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Apropiable;
+import java.util.ArrayList;
+import java.util.List;
+
 public class AnimaldeGranja extends Animal implements Apropiable {
     //Atributos
     private String propietario;
+
+    //Listas
+    public static List<AnimaldeGranja> animalesGranja = new ArrayList<>();
 
     //Constructores
     public AnimaldeGranja(){

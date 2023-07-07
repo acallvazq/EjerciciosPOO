@@ -4,53 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 19 hecho. Pendiente de revisar los enum y no repetir clases">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/AnimalCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/ISexual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/main/Main.java" afterDir="false" />
+    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Reducido hasta el ejercicio 14 incluido">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_09/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_09/classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_10/classes/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_10/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_10/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/classes/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/classes/AnimaldeGranja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/classes/AnimaldeGranja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/classes/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/classes/Mascota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/AnimalSalvaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/AnimalSalvaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/AnimaldeGranja.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Apropiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/Apropiable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Mascota.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Oveja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Oveja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Vaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_12/classes/Vaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimalSalvaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimalSalvaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimaldeGranja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimaldeGranja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Apropiable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Gato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Oveja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Oveja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/PezPayaso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/PezPayaso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Tucan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Tucan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Vaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Vaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/AnimalSalvaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/AnimalSalvaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/AnimaldeGranja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/AnimaldeGranja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Apropiable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/ISexual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/ISexual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/Mascota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Oveja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/Oveja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/PezPayaso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/PezPayaso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Tucan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/Tucan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/classes/Vaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/Vaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_14/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/classes/AnimalCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/classes/AnimalCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/AnimalSalvaje.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/AnimaldeGranja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Apropiable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Gato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/ISexual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Mascota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Oveja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Perro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/PezPayaso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Tucan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/classes/Vaca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_15/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,19 +92,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.org.campusdual.bootcamp.ingenieros.ejercicio_14.main.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campusdual.bootcamp.ingenieros.ejercicio_10.main.Main" />
-      <module name="EjerciciosPOO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campusdual.bootcamp.ingenieros.ejercicio_10.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="org.campusdual.bootcamp.ingenieros.ejercicio_11.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.campusdual.bootcamp.ingenieros.ejercicio_11.main.Main" />
       <module name="EjerciciosPOO" />
@@ -186,13 +144,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.campusdual.bootcamp.ingenieros.ejercicio_15.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campusdual.bootcamp.ingenieros.ejercicio_15.main.Main" />
+      <module name="EjerciciosPOO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campusdual.bootcamp.ingenieros.ejercicio_15.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_14.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_13.main.Main" />
+        <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_15.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_12.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_11.main.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +180,7 @@
       <workItem from="1688584452184" duration="26066000" />
       <workItem from="1688673569823" duration="1190000" />
       <workItem from="1688711157583" duration="12822000" />
-      <workItem from="1688724631714" duration="2466000" />
+      <workItem from="1688724631714" duration="3427000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -451,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688717469156</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Reducido hasta el ejercicio 14 incluido">
+      <option name="closed" value="true" />
+      <created>1688729393757</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688729393757</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio 3 hecho" />
     <MESSAGE value="Ejercicio 4 hecho" />
     <MESSAGE value="Ejercicio 5 hecho" />
     <MESSAGE value="Ejercicio 6 hecho" />
@@ -494,6 +472,18 @@
     <MESSAGE value="Ejercicio 16 hace cosas. Pendiente de revisar los enum y no repetir clases" />
     <MESSAGE value="Ejercicio 17 hecho pero entra en bucle. Pendiente de revisar los enum y no repetir clases" />
     <MESSAGE value="Ejercicio 19 hecho. Pendiente de revisar los enum y no repetir clases" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 19 hecho. Pendiente de revisar los enum y no repetir clases" />
+    <MESSAGE value="Reducido hasta el ejercicio 14 incluido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reducido hasta el ejercicio 14 incluido" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Oveja.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

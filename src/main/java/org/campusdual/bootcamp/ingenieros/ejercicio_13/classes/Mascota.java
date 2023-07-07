@@ -1,11 +1,16 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
 import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Apropiable;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Mascota extends Animal implements Apropiable {
     //Atributos
     private String nombre;
     private String propietario;
+
+    //Listas
+    public static List<Mascota> mascotas = new ArrayList<>();
 
     //Constructores
     public Mascota() {

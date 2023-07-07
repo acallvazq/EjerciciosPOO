@@ -1,6 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_15.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_15.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_13.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_14.classes.*;
 import java.util.List;
 
 public class Main {
