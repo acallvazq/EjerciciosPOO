@@ -60,13 +60,13 @@ public class Perro extends Mascota {
     @Override
     public String toString() {
         return "Perro{" +
-                "nombre='" + super.getNombre() + '\'' +
+                "Id='" + super.getId() + '\'' +
+                ", nombre='" + super.getNombre() + '\'' +
                 ", Reino='" + super.getReino() + '\'' +
                 ", tipo='" + super.getTipo() + '\'' +
                 ", raza='" + super.getRaza() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
-                ", id='" + super.getId() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
                 '}';
     }

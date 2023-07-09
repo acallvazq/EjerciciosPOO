@@ -1,6 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_18.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_18.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_13.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_14.classes.ISexual;
 
 public class Main {
     public static void main(String[] args) {

@@ -61,12 +61,12 @@ public class Oveja extends AnimaldeGranja {
     @Override
     public String toString() {
         return "Oveja{" +
-                "Reino='" + super.getReino() + '\'' +
+                "Id='" + super.getId() + '\'' +
+                ", reino='" + super.getReino() + '\'' +
                 ", tipo='" + super.getTipo() + '\'' +
                 ", raza='" + super.getRaza() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
-                ", id='" + super.getId() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
                 '}';
     }

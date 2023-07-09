@@ -58,13 +58,13 @@ public class PezPayaso extends AnimalSalvaje {
     }
     @Override
     public String toString() {
-        return "Tucan{"+
-                "Reino='" + super.getReino() + '\'' +
+        return "PezPayaso{"+
+                "Id='" + super.getId() + '\'' +
+                ", reino='" + super.getReino() + '\'' +
                 ", tipo='" + super.getTipo() + '\'' +
                 ", raza='" + super.getRaza() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
-                ", id='" + super.getId() + '\'' +
                 "}";
     }
     //Getters y Setters

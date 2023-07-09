@@ -61,7 +61,8 @@ public class Gato extends Mascota {
     @Override
     public String toString() {
         return "Gato{" +
-                "nombre='" + super.getNombre() + '\'' +
+                "Id='" + super.getId() + '\'' +
+                ", nombre='" + super.getNombre() + '\'' +
                 ", Reino='" + super.getReino() + '\'' +
                 ", tipo='" + super.getTipo() + '\'' +
                 ", raza='" + super.getRaza() + '\'' +
