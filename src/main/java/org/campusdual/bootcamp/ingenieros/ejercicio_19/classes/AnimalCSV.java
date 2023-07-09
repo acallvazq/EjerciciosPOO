@@ -1,5 +1,8 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_19.classes;
 
+import org.campusdual.bootcamp.ingenieros.ejercicio_13.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_14.classes.ISexual;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;

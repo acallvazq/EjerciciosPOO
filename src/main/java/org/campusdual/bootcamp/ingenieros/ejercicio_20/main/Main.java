@@ -1,6 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_20.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_20.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_20.classes.AnimalCSV;
+import org.campusdual.bootcamp.ingenieros.ejercicio_13.classes.*;
 
 public class Main {
     public static void main(String[] args) {
