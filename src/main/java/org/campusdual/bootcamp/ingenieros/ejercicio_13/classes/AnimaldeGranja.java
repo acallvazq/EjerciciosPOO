@@ -26,6 +26,11 @@ public class AnimaldeGranja extends Animal implements Apropiable {
         this.propietario = propietario;
     }
 
+    public AnimaldeGranja(String reino, String tipo, String raza, String medio, Genero genero, int idPadre, int idMadre, String propietario) {
+        super(reino, tipo, raza, medio, genero, idPadre, idMadre);
+        this.propietario = propietario;
+    }
+
     //Metodos
     @Override
     public String reproducirSonido(){
@@ -43,6 +48,7 @@ public class AnimaldeGranja extends Animal implements Apropiable {
                 ", raza='" + super.getRaza() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
+                ", id='" + super.getId() + '\'' +
                 ", propietario='" + propietario + '\'' +
                 '}';
     }

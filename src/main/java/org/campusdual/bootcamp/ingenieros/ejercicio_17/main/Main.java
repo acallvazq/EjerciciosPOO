@@ -1,6 +1,7 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_17.main;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_16.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_13.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_14.classes.ISexual;
 
 import java.util.HashMap;
 import java.util.Map;

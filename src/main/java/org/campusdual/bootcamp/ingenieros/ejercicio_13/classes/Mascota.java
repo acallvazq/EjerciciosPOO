@@ -37,6 +37,12 @@ public class Mascota extends Animal implements Apropiable {
         this.propietario = propietario;
     }
 
+    public Mascota(String reino, String tipo, String raza, String medio, Genero genero, int idPadre, int idMadre, String nombre, String propietario) {
+        super(reino, tipo, raza, medio, genero, idPadre, idMadre);
+        this.nombre = nombre;
+        this.propietario = propietario;
+    }
+
     //Metodos
     @Override
     public String reproducirSonido(){
@@ -54,6 +60,7 @@ public class Mascota extends Animal implements Apropiable {
                 ", tipo='" + super.getTipo() + '\'' +
                 ", raza='" + super.getRaza() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
+                ", id='" + super.getId() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + propietario + '\'' +
                 '}';

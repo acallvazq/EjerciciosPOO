@@ -22,6 +22,10 @@ public class AnimalSalvaje extends Animal {
         super(reino, tipo, raza, medio, genero);
     }
 
+    public AnimalSalvaje(String reino, String tipo, String raza, String medio, Genero genero, int idPadre, int idMadre) {
+        super(reino, tipo, raza, medio, genero, idPadre, idMadre);
+    }
+
     //Metodos
     @Override
     public String reproducirSonido(){
@@ -39,6 +43,7 @@ public class AnimalSalvaje extends Animal {
                 ", raza='" + super.getRaza() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
+                ", id='" + super.getId() + '\'' +
                 "}";
     }
 
