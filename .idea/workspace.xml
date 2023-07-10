@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 20 hecho">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_21/main/Main.java" afterDir="false" />
+    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 21 hecho">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_22/classes/Granjero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_22/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimalSalvaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimalSalvaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimaldeGranja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimaldeGranja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Oveja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Oveja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/PezPayaso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/PezPayaso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Tucan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Tucan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Vaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Vaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/classes/AnimalCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/classes/AnimalCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_17/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_17/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,20 +71,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_16/classes" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_22" />
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_21" />
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_13.classes" />
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_20" />
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_19.main" />
-      <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.campusdual.bootcamp.ingenieros.ejercicio_21.main.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campusdual.bootcamp.ingenieros.ejercicio_16.main.Main" />
+  <component name="RunManager" selected="Application.org.campusdual.bootcamp.ingenieros.ejercicio_17.main.Main">
+    <configuration name="org.campusdual.bootcamp.ingenieros.ejercicio_17.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campusdual.bootcamp.ingenieros.ejercicio_17.main.Main" />
       <module name="EjerciciosPOO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.campusdual.bootcamp.ingenieros.ejercicio_16.main.*" />
+          <option name="PATTERN" value="org.campusdual.bootcamp.ingenieros.ejercicio_17.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_17.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_21.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_20.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_19.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_18.main.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +168,7 @@
       <workItem from="1688673569823" duration="1190000" />
       <workItem from="1688711157583" duration="12822000" />
       <workItem from="1688724631714" duration="4032000" />
-      <workItem from="1688931501166" duration="17894000" />
+      <workItem from="1688931501166" duration="22282000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -477,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688949446931</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Ejercicio 21 hecho">
+      <option name="closed" value="true" />
+      <created>1688956991920</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1688956991920</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +492,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio 10 hecho" />
     <MESSAGE value="Ejercicio 11 hecho" />
     <MESSAGE value="Ejercicio 12 sin terminar" />
     <MESSAGE value="Ejercicio 12 y 13 sin terminar" />
@@ -520,6 +516,7 @@
     <MESSAGE value="Reducido hasta el ejercicio 20 incluido" />
     <MESSAGE value="Ejercicio 20 hecho, cambiar animalesCSV a estatico" />
     <MESSAGE value="Ejercicio 20 hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 20 hecho" />
+    <MESSAGE value="Ejercicio 21 hecho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 21 hecho" />
   </component>
 </project>
