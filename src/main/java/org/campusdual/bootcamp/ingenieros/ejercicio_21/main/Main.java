@@ -5,8 +5,6 @@ import org.campusdual.bootcamp.ingenieros.ejercicio_14.classes.ISexual;
 import org.campusdual.bootcamp.ingenieros.ejercicio_19.classes.AnimalCSV;
 import org.campusdual.bootcamp.ingenieros.util.Input;
 
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         boolean salida = true;
