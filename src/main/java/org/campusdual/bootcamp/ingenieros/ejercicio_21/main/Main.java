@@ -64,6 +64,7 @@ public class Main {
     public static void buscarAntepasados(int id){
         int idPadre = 0;
         int idMadre = 0;
+
         for(ISexual animal: Animal.animales){
             if(id == ((Animal)animal).getId()){
                 idPadre = ((Animal)animal).getIdPadre();
