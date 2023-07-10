@@ -25,7 +25,7 @@ public class Perro extends Mascota {
     }
 
     public Perro(String [] perro) {
-        super(perro[0], perro[1], perro[2], perro[3], perro[4], perro[5], perro[6], perro[7]);
+        super(perro[0], perro[1], perro[2], perro[3], perro[4], perro[5], perro[6], perro[7], perro[8], perro[9]);
     }
 
     //Metodos
@@ -72,6 +72,8 @@ public class Perro extends Mascota {
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
+                ", padre='" + super.getIdPadre() + '\'' +
+                ", madre='" + super.getIdMadre() + '\'' +
                 '}';
     }
 

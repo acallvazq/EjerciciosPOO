@@ -25,7 +25,7 @@ public class Gato extends Mascota {
     }
 
     public Gato(String [] gato) {
-        super(gato[0], gato[1], gato[2], gato[3], gato[4], gato[5], gato[6], gato[7]);
+        super(gato[0], gato[1], gato[2], gato[3], gato[4], gato[5], gato[6], gato[7], gato[8], gato[9]);
     }
 
     //Metodos
@@ -73,6 +73,8 @@ public class Gato extends Mascota {
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
+                ", padre='" + super.getIdPadre() + '\'' +
+                ", madre='" + super.getIdMadre() + '\'' +
                 '}';
     }
 

@@ -25,7 +25,7 @@ public class PezPayaso extends AnimalSalvaje {
     }
 
     public PezPayaso(String [] pez) {
-        super(pez[0], pez[3], pez[4], pez[5], pez[6], pez[7]);
+        super(pez[0], pez[3], pez[4], pez[5], pez[6], pez[7], pez[8], pez[9]);
     }
 
     //Metodos
@@ -69,6 +69,8 @@ public class PezPayaso extends AnimalSalvaje {
                 ", raza='" + super.getRaza() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
+                ", padre='" + super.getIdPadre() + '\'' +
+                ", madre='" + super.getIdMadre() + '\'' +
                 "}";
     }
     //Getters y Setters

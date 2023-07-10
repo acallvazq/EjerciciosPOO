@@ -1,0 +1,19 @@
+Id,Nombre,Propietario,Tipo,Raza,Genero,Medio,Reino,Padre,Madre
+1,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,0,0
+2,Kida,Manuel,Perro,Pator suizo,Hembra,Terrestre,Mamifero,0,0
+3,Mora,Manuel,Perro,Pator suizo,Hembra,Terrestre,Mamifero,1,2
+4,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,0,0
+5,Lana,Alba,Gato,American Shorthair,Hembra,Terrestre,Mamifero,0,0
+6,Don gato,Alba,Gato,Siames,Macho,Terrestre,Mamifero,4,5
+7,null,null,Tucan,Toco,Macho,Aereo,Ave,0,0
+8,null,null,Tucan,Toco,Hembra,Aereo,Ave,0,0
+9,null,null,Tucan,Toco,Hembra,Aereo,Ave,7,8
+10,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,0,0
+11,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,0,0
+12,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,10,11
+13,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,0,0
+14,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,0,0
+15,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,13,14
+16,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,0,0
+17,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,0,0
+18,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,16,17

@@ -57,7 +57,7 @@ public abstract class Animal implements Cloneable, ISexual {
         this.idMadre = idMadre;
     }
 
-    public Animal(String id, String tipo, String raza, String genero, String medio, String reino){
+    public Animal(String id, String tipo, String raza, String genero, String medio, String reino, String idPadre, String idMadre){
         Genero genre;
         if(genero.equals("Macho")) genre = Genero.Macho;
         else genre= Genero.Hembra;
@@ -68,6 +68,8 @@ public abstract class Animal implements Cloneable, ISexual {
         this.genero = genre;
         this.medio = medio;
         this.reino = reino;
+        this.idPadre = Integer.parseInt(idPadre);
+        this.idMadre = Integer.parseInt(idMadre);
     }
 
     //Constructor de copia

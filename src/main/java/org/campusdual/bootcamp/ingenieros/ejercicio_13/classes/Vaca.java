@@ -25,7 +25,7 @@ public class Vaca extends AnimaldeGranja {
     }
 
     public Vaca(String [] vaca) {
-        super(vaca[0], vaca[2], vaca[3], vaca[4], vaca[5], vaca[6], vaca[7]);
+        super(vaca[0], vaca[2], vaca[3], vaca[4], vaca[5], vaca[6], vaca[7], vaca[8], vaca[9]);
     }
 
     //Metodos
@@ -74,6 +74,8 @@ public class Vaca extends AnimaldeGranja {
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
+                ", padre='" + super.getIdPadre() + '\'' +
+                ", madre='" + super.getIdMadre() + '\'' +
                 '}';
     }
 

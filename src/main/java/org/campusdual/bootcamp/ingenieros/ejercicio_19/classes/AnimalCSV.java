@@ -21,7 +21,7 @@ public class AnimalCSV {
             FileWriter writer = new FileWriter(ruta);
 
             //Nombre de las columnas del fichero CSV
-            writer.write("Id,Nombre,Propietario,Tipo,Raza,Genero,Medio,Reino\n");
+            writer.write("Id,Nombre,Propietario,Tipo,Raza,Genero,Medio,Reino,Padre,Madre\n");
 
             //Guardar los datos de los animales
             for(ISexual animal: animales){
@@ -31,7 +31,9 @@ public class AnimalCSV {
                             ((AnimalSalvaje) animal).getRaza() + "," +
                             ((AnimalSalvaje) animal).getGenero() + "," +
                             ((AnimalSalvaje) animal).getMedio() + "," +
-                            ((AnimalSalvaje) animal).getReino() + "\n");
+                            ((AnimalSalvaje) animal).getReino() + "," +
+                            ((AnimalSalvaje) animal).getIdPadre() + "," +
+                            ((AnimalSalvaje) animal).getIdMadre() + "\n");
                 }else if (animal instanceof AnimaldeGranja){
                     writer.write(((AnimaldeGranja) animal).getId() + ",null," +
                             ((AnimaldeGranja) animal).getPropietario() + "," +
@@ -39,7 +41,9 @@ public class AnimalCSV {
                             ((AnimaldeGranja) animal).getRaza() + "," +
                             ((AnimaldeGranja) animal).getGenero() + "," +
                             ((AnimaldeGranja) animal).getMedio() + "," +
-                            ((AnimaldeGranja) animal).getReino() + "\n");
+                            ((AnimaldeGranja) animal).getReino() + "," +
+                            ((AnimaldeGranja) animal).getIdPadre() + "," +
+                            ((AnimaldeGranja) animal).getIdMadre() + "\n");
                 }else if (animal instanceof Mascota){
                     writer.write(((Mascota) animal).getId() + "," +
                             ((Mascota) animal).getNombre() + "," +
@@ -48,7 +52,9 @@ public class AnimalCSV {
                             ((Mascota) animal).getRaza() + "," +
                             ((Mascota) animal).getGenero() + "," +
                             ((Mascota) animal).getMedio() + "," +
-                            ((Mascota) animal).getReino() + "\n");
+                            ((Mascota) animal).getReino() + "," +
+                            ((Mascota) animal).getIdPadre() + "," +
+                            ((Mascota) animal).getIdMadre() + "\n");
                 }
             }
             writer.close();
@@ -62,11 +68,9 @@ public class AnimalCSV {
         List<ISexual> animales = new ArrayList<>();
 
         try {
-            System.out.println("\nLeyendo del archivo CSV...");
             int indiceTipo = 0;
             FileReader fichero = new FileReader(ruta);
             CSVReader lector = new CSVReader(fichero);
-            //CSVReader lector = new CSVReaderBuilder(fichero).withSkipLines(1).build();
 
             List<String[]> contenido = lector.readAll();
             String[] cabecera = contenido.get(0);

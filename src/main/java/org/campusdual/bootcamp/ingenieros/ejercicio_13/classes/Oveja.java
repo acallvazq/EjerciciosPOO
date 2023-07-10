@@ -25,7 +25,7 @@ public class Oveja extends AnimaldeGranja {
     }
 
     public Oveja(String [] oveja) {
-        super(oveja[0], oveja[2], oveja[3], oveja[4], oveja[5], oveja[6], oveja[7]);
+        super(oveja[0], oveja[2], oveja[3], oveja[4], oveja[5], oveja[6], oveja[7], oveja[8], oveja[9]);
     }
 
     //Metodos
@@ -72,6 +72,8 @@ public class Oveja extends AnimaldeGranja {
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
                 ", propietario='" + super.getPropietario() + '\'' +
+                ", padre='" + super.getIdPadre() + '\'' +
+                ", madre='" + super.getIdMadre() + '\'' +
                 '}';
     }
 

@@ -25,7 +25,7 @@ public class Tucan extends AnimalSalvaje {
     }
 
     public Tucan(String [] tucan) {
-        super(tucan[0], tucan[3], tucan[4], tucan[5], tucan[6], tucan[7]);
+        super(tucan[0], tucan[3], tucan[4], tucan[5], tucan[6], tucan[7], tucan[8], tucan[9]);
     }
 
     //Metodos
@@ -71,6 +71,8 @@ public class Tucan extends AnimalSalvaje {
                 ", raza='" + super.getRaza() + '\'' +
                 ", medio='" + super.getMedio() + '\'' +
                 ", genero='" + super.getGenero() + '\'' +
+                ", padre='" + super.getIdPadre() + '\'' +
+                ", madre='" + super.getIdMadre() + '\'' +
                 "}";
     }
 

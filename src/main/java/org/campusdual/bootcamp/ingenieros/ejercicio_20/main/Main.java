@@ -38,6 +38,7 @@ public class Main {
         Animal.animales.add(oveja2);
 
         //Cargar datos del CSV
+        System.out.println("\nLeyendo del archivo CSV...");
         List<ISexual> animales2;
         animales2 = AnimalCSV.cargarDatos("animales.csv");
 
