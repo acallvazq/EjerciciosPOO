@@ -8,10 +8,6 @@ public class Oveja extends AnimaldeGranja {
     //Atributos
 
     //Constructores
-    public Oveja() {
-
-    }
-
     public Oveja(String reino, String tipo, String raza, String medio, String propietario) {
         super(reino, tipo, raza, medio, propietario);
     }

@@ -8,10 +8,6 @@ public class PezPayaso extends AnimalSalvaje {
     //Atributos
 
     //Constructores
-    public PezPayaso() {
-
-    }
-
     public PezPayaso(String reino, String tipo, String raza, String medio) {
         super(reino, tipo, raza, medio);
     }

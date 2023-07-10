@@ -2,7 +2,7 @@ package org.campusdual.bootcamp.ingenieros.ejercicio_11.classes;
 
 import org.campusdual.bootcamp.ingenieros.ejercicio_09.classes.Animal;
 
-public class AnimaldeGranja extends Animal implements Apropiable{
+public class AnimaldeGranja extends Animal implements IPropietario{
     //Atributos
     private String propietario;
 

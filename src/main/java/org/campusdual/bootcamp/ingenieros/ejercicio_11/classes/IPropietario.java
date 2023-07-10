@@ -1,6 +1,6 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_11.classes;
 
-public interface Apropiable{
+public interface IPropietario{
     String getPropietario();
     void setPropietario(String propietario);
 }

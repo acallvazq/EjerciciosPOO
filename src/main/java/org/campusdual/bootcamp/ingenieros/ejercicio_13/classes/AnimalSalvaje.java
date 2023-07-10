@@ -10,10 +10,6 @@ public class AnimalSalvaje extends Animal {
     public static List<AnimalSalvaje> animaleSalvajes = new ArrayList<>();
 
     //Constructores
-    public AnimalSalvaje() {
-
-    }
-
     public AnimalSalvaje(String reino, String tipo, String raza, String medio) {
         super(reino, tipo, raza, medio);
     }

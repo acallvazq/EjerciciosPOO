@@ -8,10 +8,6 @@ public class Vaca extends AnimaldeGranja {
     //Atributos
 
     //Constructores
-    public Vaca() {
-
-    }
-
     public Vaca(String reino, String tipo, String raza, String medio, String propietario) {
         super(reino, tipo, raza, medio, propietario);
     }

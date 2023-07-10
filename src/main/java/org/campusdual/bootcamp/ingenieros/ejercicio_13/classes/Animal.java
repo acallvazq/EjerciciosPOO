@@ -26,10 +26,6 @@ public abstract class Animal implements Cloneable, ISexual {
     public static List<ISexual> animales = new ArrayList<>();
 
     //Constructores
-    public Animal(){
-
-    }
-
     public Animal(String reino, String tipo, String raza, String medio){
         this.reino = reino;
         this.tipo = tipo;

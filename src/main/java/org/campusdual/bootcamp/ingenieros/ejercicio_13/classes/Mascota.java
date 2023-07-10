@@ -1,10 +1,9 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
-
-import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Apropiable;
+import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.IPropietario;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Mascota extends Animal implements Apropiable {
+public class Mascota extends Animal implements IPropietario {
     //Atributos
     private String nombre;
     private String propietario;
@@ -13,14 +12,6 @@ public class Mascota extends Animal implements Apropiable {
     public static List<Mascota> mascotas = new ArrayList<>();
 
     //Constructores
-    public Mascota() {
-
-    }
-
-    public Mascota(String reino, String tipo, String raza, String medio) {
-        super(reino, tipo, raza, medio);
-    }
-
     public Mascota(String reino, String tipo, String raza, String medio, Genero genero) {
         super(reino, tipo, raza, medio, genero);
     }

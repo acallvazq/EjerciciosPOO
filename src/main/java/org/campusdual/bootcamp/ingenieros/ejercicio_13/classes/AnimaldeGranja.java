@@ -1,10 +1,10 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_13.classes;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.Apropiable;
+import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.IPropietario;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AnimaldeGranja extends Animal implements Apropiable {
+public class AnimaldeGranja extends Animal implements IPropietario {
     //Atributos
     private String propietario;
 
@@ -12,10 +12,6 @@ public class AnimaldeGranja extends Animal implements Apropiable {
     public static List<AnimaldeGranja> animalesGranja = new ArrayList<>();
 
     //Constructores
-    public AnimaldeGranja(){
-
-    }
-
     public AnimaldeGranja(String reino, String tipo, String raza, String medio, String propietario) {
         super(reino, tipo, raza, medio);
         this.propietario = propietario;

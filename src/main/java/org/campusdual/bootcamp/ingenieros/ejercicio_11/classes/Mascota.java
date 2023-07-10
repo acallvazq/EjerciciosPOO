@@ -2,19 +2,15 @@ package org.campusdual.bootcamp.ingenieros.ejercicio_11.classes;
 
 import org.campusdual.bootcamp.ingenieros.ejercicio_09.classes.Animal;
 
-public class Mascota extends Animal implements Apropiable {
+public class Mascota extends Animal implements IPropietario {
     //Atributos
     private String nombre;
     private String propietario;
 
     //Constructores
-    public Mascota() {
-
-    }
-
-    public Mascota(String reino, String tipo, String raza, String medio) {
+    /*public Mascota(String reino, String tipo, String raza, String medio) {
         super(reino, tipo, raza, medio);
-    }
+    }*/
 
     public Mascota(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
         super(reino, tipo, raza, medio);

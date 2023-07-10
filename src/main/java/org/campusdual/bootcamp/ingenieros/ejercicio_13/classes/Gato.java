@@ -8,10 +8,6 @@ public class Gato extends Mascota {
     //Atributos
 
     //Constructores
-    public Gato() {
-
-    }
-
     public Gato(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
         super(reino, tipo, raza, medio, nombre, propietario);
     }
