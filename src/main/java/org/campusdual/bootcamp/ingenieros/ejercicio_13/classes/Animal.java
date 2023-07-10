@@ -57,6 +57,19 @@ public abstract class Animal implements Cloneable, ISexual {
         this.idMadre = idMadre;
     }
 
+    public Animal(String id, String tipo, String raza, String genero, String medio, String reino){
+        Genero genre;
+        if(genero.equals("Macho")) genre = Genero.Macho;
+        else genre= Genero.Hembra;
+
+        this.id = Integer.parseInt(id);
+        this.tipo = tipo;
+        this.raza = raza;
+        this.genero = genre;
+        this.medio = medio;
+        this.reino = reino;
+    }
+
     //Constructor de copia
     /*public Animal(Animal animal){
         this.reino = animal.reino;

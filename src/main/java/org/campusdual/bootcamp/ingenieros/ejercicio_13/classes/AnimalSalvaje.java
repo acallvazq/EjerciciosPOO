@@ -26,6 +26,10 @@ public class AnimalSalvaje extends Animal {
         super(reino, tipo, raza, medio, genero, idPadre, idMadre);
     }
 
+    public AnimalSalvaje(String id, String tipo, String raza, String genero, String medio, String reino) {
+        super(id, tipo, raza, genero, medio, reino);
+    }
+
     //Metodos
     @Override
     public String reproducirSonido(){

@@ -24,6 +24,10 @@ public class Tucan extends AnimalSalvaje {
         super("Ave", "Tucan", raza, medio, genero, idPadre, idMadre);
     }
 
+    public Tucan(String [] tucan) {
+        super(tucan[0], tucan[3], tucan[4], tucan[5], tucan[6], tucan[7]);
+    }
+
     //Metodos
     @Override
     public Animal reproducirse(ISexual pareja){

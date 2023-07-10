@@ -24,6 +24,10 @@ public class Gato extends Mascota {
         super("Mamifero", "Gato", raza, medio, genero, idPadre, idMadre, nombre, propietario);
     }
 
+    public Gato(String [] gato) {
+        super(gato[0], gato[1], gato[2], gato[3], gato[4], gato[5], gato[6], gato[7]);
+    }
+
     //Metodos
     @Override
     public Animal reproducirse(ISexual pareja){

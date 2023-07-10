@@ -24,6 +24,10 @@ public class PezPayaso extends AnimalSalvaje {
         super("Pez", "Pez payaso", raza, medio, genero, idPadre, idMadre);
     }
 
+    public PezPayaso(String [] pez) {
+        super(pez[0], pez[3], pez[4], pez[5], pez[6], pez[7]);
+    }
+
     //Metodos
     @Override
     public Animal reproducirse(ISexual pareja){

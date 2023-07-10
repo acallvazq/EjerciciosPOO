@@ -24,6 +24,10 @@ public class Oveja extends AnimaldeGranja {
         super("Mamifero", "Oveja", raza, medio, genero, idPadre, idMadre, propietario);
     }
 
+    public Oveja(String [] oveja) {
+        super(oveja[0], oveja[2], oveja[3], oveja[4], oveja[5], oveja[6], oveja[7]);
+    }
+
     //Metodos
     @Override
     public Animal reproducirse(ISexual pareja){

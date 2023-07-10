@@ -24,6 +24,10 @@ public class Vaca extends AnimaldeGranja {
         super("Mamifero", "Vaca", raza, medio, genero, idPadre, idMadre, propietario);
     }
 
+    public Vaca(String [] vaca) {
+        super(vaca[0], vaca[2], vaca[3], vaca[4], vaca[5], vaca[6], vaca[7]);
+    }
+
     //Metodos
     @Override
     public Animal reproducirse(ISexual pareja){

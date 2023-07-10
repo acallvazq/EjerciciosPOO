@@ -24,6 +24,10 @@ public class Perro extends Mascota {
         super("Mamifero", "Perro", raza, medio, genero, idPadre, idMadre, nombre, propietario);
     }
 
+    public Perro(String [] perro) {
+        super(perro[0], perro[1], perro[2], perro[3], perro[4], perro[5], perro[6], perro[7]);
+    }
+
     //Metodos
     @Override
     public Animal reproducirse(ISexual pareja){
