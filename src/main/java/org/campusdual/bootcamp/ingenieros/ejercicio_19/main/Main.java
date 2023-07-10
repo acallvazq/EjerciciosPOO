@@ -8,7 +8,9 @@ public class Main {
         //Crear los objetos
         Perro perro1 = new Perro("Pastor aleman", "Terrestre", Animal.Genero.Macho, "Pluto", "Manuel");
         Perro perro2 = new Perro("Pator suizo", "Terrestre", Animal.Genero.Hembra, "Kida", "Manuel");
-        Perro perro3 = new Perro("Pator suizo", "Terrestre", Animal.Genero.Hembra, perro1.getId(), perro2.getId(), "Mora", "Manuel");
+        Perro perro3 = new Perro("Pastor aleman", "Terrestre", Animal.Genero.Macho, "Pluto", "Manuel");
+        Perro perro4 = new Perro("Pator suizo", "Terrestre", Animal.Genero.Hembra, perro1.getId(), perro2.getId(),"Kida", "Manuel");
+        Perro perro5 = new Perro("Pator suizo", "Terrestre", Animal.Genero.Hembra, perro3.getId(), perro4.getId(), "Mora", "Manuel");
         Gato gato1 = new Gato("Snowshoe", "Terrestre", Animal.Genero.Macho, "Mochuelo", "Alba");
         Gato gato2 = new Gato("American Shorthair", "Terrestre", Animal.Genero.Hembra, "Lana", "Alba");
         Gato gato3 = new Gato("Siames", "Terrestre", Animal.Genero.Macho, gato1.getId(), gato2.getId(), "Don gato", "Alba");
@@ -29,6 +31,8 @@ public class Main {
         Animal.animales.add(perro1);
         Animal.animales.add(perro2);
         Animal.animales.add(perro3);
+        Animal.animales.add(perro4);
+        Animal.animales.add(perro5);
         Animal.animales.add(gato1);
         Animal.animales.add(gato2);
         Animal.animales.add(gato3);

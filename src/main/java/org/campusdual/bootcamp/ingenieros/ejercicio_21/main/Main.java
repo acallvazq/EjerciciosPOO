@@ -56,12 +56,21 @@ public class Main {
     private static void consultarAntepasados(){
         int id = Input.integer("\nIntroduzca el id del animal: ");
 
+        System.out.println("\nMostrando informacion de los antepasados...");
+        buscarAntepasados(id);
+
+    }
+
+    public static void buscarAntepasados(int id){
+        int idPadre = 0;
+        int idMadre = 0;
         for(ISexual animal: Animal.animales){
             if(id == ((Animal)animal).getId()){
-                int idPadre = ((Animal)animal).getIdPadre();
-                int idMadre = ((Animal)animal).getIdMadre();
+                idPadre = ((Animal)animal).getIdPadre();
+                idMadre = ((Animal)animal).getIdMadre();
 
-                System.out.println("\nMostrando informacion del padre...");
+                if(idPadre == 0 || idMadre == 0) return;
+
                 for(ISexual padre: Animal.animales){
                     if(idPadre == ((Animal)padre).getId()){
                         System.out.println(padre);
@@ -69,7 +78,6 @@ public class Main {
                     }
                 }
 
-                System.out.println("\nMostrando informacion de la madre...");
                 for(ISexual madre: Animal.animales){
                     if(idMadre == ((Animal)madre).getId()){
                         System.out.println(madre);
@@ -80,6 +88,8 @@ public class Main {
             }
         }
 
+        buscarAntepasados(idPadre);
+        buscarAntepasados(idMadre);
     }
 
     private static void mostrarAnimales(){
