@@ -12,10 +12,6 @@ public class Mascota extends Animal implements IPropietario {
     public static List<Mascota> mascotas = new ArrayList<>();
 
     //Constructores
-    public Mascota(String reino, String tipo, String raza, String medio, Genero genero) {
-        super(reino, tipo, raza, medio, genero);
-    }
-
     public Mascota(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
         super(reino, tipo, raza, medio);
         this.nombre = nombre;

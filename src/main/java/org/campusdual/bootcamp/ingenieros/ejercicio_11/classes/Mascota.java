@@ -8,10 +8,6 @@ public class Mascota extends Animal implements IPropietario {
     private String propietario;
 
     //Constructores
-    /*public Mascota(String reino, String tipo, String raza, String medio) {
-        super(reino, tipo, raza, medio);
-    }*/
-
     public Mascota(String reino, String tipo, String raza, String medio, String nombre, String propietario) {
         super(reino, tipo, raza, medio);
         this.nombre = nombre;

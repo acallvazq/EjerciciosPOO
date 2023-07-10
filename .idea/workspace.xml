@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 21 con antepasados">
+    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 22 sin terminar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_22/classes/Granjero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_22/classes/Granjero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_22/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_22/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/classes/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_11/classes/Mascota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <recent name="org.campusdual.bootcamp.ingenieros.ejercicio_19.main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.campusdual.bootcamp.ingenieros.ejercicio_21.main.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.campusdual.bootcamp.ingenieros.ejercicio_13.main.Main" />
       <module name="EjerciciosPOO" />
@@ -145,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_21.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_19.main.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_20.main.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.campusdual.bootcamp.ingenieros.ejercicio_16.main.Main" />
       </list>
     </recent_temporary>
@@ -168,7 +168,7 @@
       <workItem from="1688711157583" duration="12822000" />
       <workItem from="1688724631714" duration="4032000" />
       <workItem from="1688931501166" duration="22282000" />
-      <workItem from="1689008822123" duration="6200000" />
+      <workItem from="1689008822123" duration="7043000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -506,7 +506,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689018965681</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Ejercicio 22 sin terminar">
+      <option name="closed" value="true" />
+      <created>1689019900582</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1689019900582</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +532,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio 12 y 13 sin terminar" />
     <MESSAGE value="Revision del 1 al 9" />
     <MESSAGE value="Revisado ejercicio 10" />
     <MESSAGE value="Revisado ejercicio 11" />
@@ -549,6 +556,7 @@
     <MESSAGE value="Ejercicio 21 hecho" />
     <MESSAGE value="IPropietario, eliminado constructores vacios y quitado constructor conflictivo de Mascota" />
     <MESSAGE value="Ejercicio 21 con antepasados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 21 con antepasados" />
+    <MESSAGE value="Ejercicio 22 sin terminar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 22 sin terminar" />
   </component>
 </project>
