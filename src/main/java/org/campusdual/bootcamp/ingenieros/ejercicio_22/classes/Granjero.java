@@ -7,19 +7,17 @@ import java.util.List;
 public class Granjero {
     //Atributos
     private String nombre;
-    private int edad;
-    private String dni;
     private List<Animal> animales;
 
     //Constructores
-    public Granjero(String nombre, int edad, String dni){
+    public Granjero(String nombre) {
         this.nombre = nombre;
-        this.edad = edad;
-        this.dni = dni;
-
     }
 
     //Metodos
+    void agregarAnimal(Animal animal){
+        animales.add(animal);
+    }
 
     //Getters y Setters
     public String getNombre() {
@@ -30,14 +28,6 @@ public class Granjero {
         this.nombre = nombre;
     }
 
-    public int getEdad() {
-        return edad;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-
     public List<Animal> getAnimales() {
         return animales;
     }
@@ -46,11 +36,4 @@ public class Granjero {
         this.animales = animales;
     }
 
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
 }

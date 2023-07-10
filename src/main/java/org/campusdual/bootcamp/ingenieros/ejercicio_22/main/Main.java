@@ -8,6 +8,8 @@ import org.campusdual.bootcamp.ingenieros.util.Input;
 public class Main {
     public static void main(String[] args) {
         init();
+
+
         mostrarAnimales();
 
     }
