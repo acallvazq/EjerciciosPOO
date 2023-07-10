@@ -34,7 +34,6 @@ public class Main {
         Animal.animales.add(oveja2);
 
         //Guardar en CSV
-        AnimalCSV csv = new AnimalCSV("animales.csv");
-        csv.guardarDatos(Animal.animales);
+        AnimalCSV.guardarDatos(Animal.animales, "animales.csv");
     }
 }

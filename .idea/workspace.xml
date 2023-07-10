@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Reducido hasta el ejercicio 20 incluido">
+    <list default="true" id="4a69464b-534a-44b3-b725-3a2d84e8164b" name="Changes" comment="Ejercicio 20 hecho, cambiar animalesCSV a estatico">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimalSalvaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimalSalvaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimaldeGranja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/AnimaldeGranja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Mascota.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Oveja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Oveja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Perro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/PezPayaso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/PezPayaso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Tucan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Tucan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Vaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_13/classes/Vaca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/classes/AnimalCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/classes/AnimalCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/AnimalCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/classes/AnimalCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_20/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +168,7 @@
       <workItem from="1688673569823" duration="1190000" />
       <workItem from="1688711157583" duration="12822000" />
       <workItem from="1688724631714" duration="4032000" />
-      <workItem from="1688931501166" duration="11665000" />
+      <workItem from="1688931501166" duration="12311000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -461,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688937344495</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Ejercicio 20 hecho, cambiar animalesCSV a estatico">
+      <option name="closed" value="true" />
+      <created>1688948854688</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688948854688</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ejercicio 8 hecho" />
     <MESSAGE value="Ejercicio 9 hecho" />
     <MESSAGE value="Ejercicio 10 hecho" />
     <MESSAGE value="Ejercicio 11 hecho" />
@@ -504,6 +500,7 @@
     <MESSAGE value="Reducido hasta el ejercicio 17 incluido" />
     <MESSAGE value="Reducido hasta el ejercicio 18 incluido" />
     <MESSAGE value="Reducido hasta el ejercicio 20 incluido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reducido hasta el ejercicio 20 incluido" />
+    <MESSAGE value="Ejercicio 20 hecho, cambiar animalesCSV a estatico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio 20 hecho, cambiar animalesCSV a estatico" />
   </component>
 </project>

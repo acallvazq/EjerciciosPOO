@@ -11,16 +11,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AnimalCSV {
-    //Atributos
-    private String ruta;
 
-    //Constructores
-    public AnimalCSV(String ruta){
-        this.ruta = ruta;
-    }
-
-    //Metodos
-    public void guardarDatos(List<ISexual> animales){
+    //Metodos estaticos
+    public static void guardarDatos(List<ISexual> animales, String ruta){
         try{
             /*String dirProyecto = System.getProperty("user.dir");
             String directorio = dirProyecto + "/src/main/java/org/campusdual/bootcamp/ingenieros/ejercicio_19/";*/
@@ -65,7 +58,7 @@ public class AnimalCSV {
         System.out.println("Los animales se han guardado con exito.");
     }
 
-    public List<ISexual> cargarDatos(){
+    public static List<ISexual> cargarDatos(String ruta){
         List<ISexual> animales = new ArrayList<>();
 
         try {

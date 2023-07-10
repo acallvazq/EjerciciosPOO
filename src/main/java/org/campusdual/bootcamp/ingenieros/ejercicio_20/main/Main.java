@@ -37,13 +37,9 @@ public class Main {
         Animal.animales.add(oveja1);
         Animal.animales.add(oveja2);
 
-        //Guardar en CSV
-        AnimalCSV csv = new AnimalCSV("animales.csv");
-        csv.guardarDatos(Animal.animales);
-
         //Cargar datos del CSV
         List<ISexual> animales2;
-        animales2 = csv.cargarDatos();
+        animales2 = AnimalCSV.cargarDatos("animales.csv");
 
         //Imprime lista
         for (ISexual animal1 : animales2) {
