@@ -1,21 +1,517 @@
 Id,Nombre,Propietario,Tipo,Raza,Genero,Medio,Reino,Padre,Madre
-1,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,0,0
-2,Kida,Manuel,Perro,Pator suizo,Hembra,Terrestre,Mamifero,0,0
-3,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,0,0
-4,Kida,Manuel,Perro,Pator suizo,Hembra,Terrestre,Mamifero,1,2
-5,Mora,Manuel,Perro,Pator suizo,Hembra,Terrestre,Mamifero,3,4
-6,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,0,0
-7,Lana,Alba,Gato,American Shorthair,Hembra,Terrestre,Mamifero,0,0
-8,Don gato,Alba,Gato,Siames,Macho,Terrestre,Mamifero,6,7
-9,null,null,Tucan,Toco,Macho,Aereo,Ave,0,0
-10,null,null,Tucan,Toco,Hembra,Aereo,Ave,0,0
-11,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,10
-12,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,0,0
-13,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,0,0
-14,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,12,13
-15,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,0,0
-16,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,0,0
-17,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,15,16
-18,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,0,0
-19,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,0,0
-20,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,18,19
+1,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,-1,-1
+2,Kida,Manuel,Perro,Pastor suizo,Hembra,Terrestre,Mamifero,-1,-1
+3,Luna,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,-1,-1
+4,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,-1,-1
+5,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,-1,-1
+6,Lana,Alba,Gato,American Shorthair,Hembra,Terrestre,Mamifero,-1,-1
+7,Jenni,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,-1,-1
+8,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,-1,-1
+9,null,null,Tucan,Toco,Macho,Aereo,Ave,-1,-1
+10,null,null,Tucan,Toco,Hembra,Aereo,Ave,-1,-1
+11,null,null,Tucan,Toco,Hembra,Aereo,Ave,-1,-1
+12,null,null,Tucan,Toco,Hembra,Aereo,Ave,-1,-1
+13,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,-1,-1
+14,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,-1,-1
+15,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,-1,-1
+16,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,-1,-1
+17,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,-1,-1
+18,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,-1,-1
+19,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,-1,-1
+20,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,-1,-1
+21,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,-1,-1
+22,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,-1,-1
+23,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,-1,-1
+24,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,-1,-1
+25,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,2
+26,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,2
+27,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,2
+28,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,3
+29,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,3
+30,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,3
+31,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,2
+32,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,2
+33,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,4,2
+34,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,3
+35,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,3
+36,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,3
+37,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,6
+38,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,6
+39,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,6
+40,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,7
+41,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,7
+42,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,7
+43,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,6
+44,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,6
+45,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,8,6
+46,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,7
+47,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,7
+48,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,8,7
+49,null,null,Tucan,Toco,Macho,Aereo,Ave,9,10
+50,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,10
+51,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,10
+52,null,null,Tucan,Toco,Macho,Aereo,Ave,9,11
+53,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,11
+54,null,null,Tucan,Toco,Macho,Aereo,Ave,9,11
+55,null,null,Tucan,Toco,Macho,Aereo,Ave,9,12
+56,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,12
+57,null,null,Tucan,Toco,Macho,Aereo,Ave,9,12
+58,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,14
+59,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,14
+60,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,13,14
+61,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,15
+62,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,15
+63,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,13,15
+64,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,14
+65,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,14
+66,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,14
+67,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,15
+68,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,15
+69,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,15
+70,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,18
+71,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,18
+72,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,18
+73,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,19
+74,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,19
+75,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,19
+76,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,18
+77,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,20,18
+78,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,20,18
+79,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,19
+80,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,19
+81,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,19
+82,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,22
+83,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,22
+84,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,22
+85,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,23
+86,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,23
+87,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,23
+88,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,22
+89,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,22
+90,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,22
+91,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,23
+92,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,23
+93,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,23
+25,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,2
+26,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,2
+27,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,2
+28,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,3
+29,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,3
+30,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,3
+31,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,2
+32,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,2
+33,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,4,2
+34,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,3
+35,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,3
+36,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,3
+37,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,6
+38,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,6
+39,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,6
+40,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,7
+41,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,7
+42,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,7
+43,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,6
+44,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,6
+45,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,8,6
+46,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,7
+47,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,7
+48,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,8,7
+49,null,null,Tucan,Toco,Macho,Aereo,Ave,9,10
+50,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,10
+51,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,10
+52,null,null,Tucan,Toco,Macho,Aereo,Ave,9,11
+53,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,11
+54,null,null,Tucan,Toco,Macho,Aereo,Ave,9,11
+55,null,null,Tucan,Toco,Macho,Aereo,Ave,9,12
+56,null,null,Tucan,Toco,Hembra,Aereo,Ave,9,12
+57,null,null,Tucan,Toco,Macho,Aereo,Ave,9,12
+58,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,14
+59,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,14
+60,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,13,14
+61,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,15
+62,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,15
+63,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,13,15
+64,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,14
+65,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,14
+66,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,14
+67,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,15
+68,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,15
+69,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,15
+70,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,18
+71,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,18
+72,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,18
+73,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,19
+74,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,19
+75,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,19
+76,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,18
+77,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,20,18
+78,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,20,18
+79,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,19
+80,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,19
+81,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,19
+82,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,22
+83,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,22
+84,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,22
+85,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,23
+86,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,23
+87,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,23
+88,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,22
+89,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,22
+90,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,22
+91,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,23
+92,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,23
+93,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,23
+94,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,31
+95,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,31
+96,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,31
+97,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,32
+98,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,32
+99,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,32
+100,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,34
+101,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,34
+102,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,34
+103,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,35
+104,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,35
+105,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,35
+106,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,36
+107,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,1,36
+108,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,1,36
+109,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,4,25
+110,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,25
+111,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,4,25
+112,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,28
+113,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,4,28
+114,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,28
+115,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,29
+116,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,29
+117,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,4,29
+118,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,4,30
+119,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,4,30
+120,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,4,30
+121,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,43
+122,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,43
+123,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,43
+124,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,44
+125,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,44
+126,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,44
+127,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,46
+128,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,46
+129,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,46
+130,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,47
+131,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,5,47
+132,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,5,47
+133,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,8,38
+134,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,8,38
+135,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,38
+136,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,39
+137,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,39
+138,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,8,39
+139,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,41
+140,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,8,41
+141,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,8,41
+142,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,13,64
+143,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,64
+144,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,64
+145,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,13,66
+146,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,13,66
+147,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,13,66
+148,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,58
+149,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,58
+150,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,58
+151,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,59
+152,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,59
+153,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,59
+154,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,61
+155,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,61
+156,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,61
+157,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,62
+158,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,16,62
+159,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,16,62
+160,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,76
+161,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,76
+162,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,76
+163,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,79
+164,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,79
+165,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,79
+166,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,80
+167,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,80
+168,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,80
+169,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,81
+170,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,17,81
+171,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,17,81
+172,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,70
+173,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,70
+174,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,20,70
+175,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,20,75
+176,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,20,75
+177,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,20,75
+178,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,89
+179,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,89
+180,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,89
+181,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,91
+182,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,91
+183,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,21,91
+184,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,92
+185,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,92
+186,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,21,92
+187,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,84
+188,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,84
+189,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,84
+190,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,86
+191,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,86
+192,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,86
+193,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,87
+194,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,24,87
+195,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,24,87
+196,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,26,3
+197,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,26,3
+198,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,26,3
+199,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,26,34
+200,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,26,34
+201,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,26,34
+202,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,26,35
+203,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,26,35
+204,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,26,35
+205,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,26,36
+206,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,26,36
+207,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,26,36
+208,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,27,3
+209,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,27,3
+210,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,27,3
+211,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,27,34
+212,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,27,34
+213,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,27,34
+214,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,27,35
+215,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,27,35
+216,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,27,35
+217,Pluto,Manuel,Perro,Pastor aleman,Hembra,Terrestre,Mamifero,27,36
+218,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,27,36
+219,Pluto,Manuel,Perro,Pastor aleman,Macho,Terrestre,Mamifero,27,36
+220,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,33,3
+221,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,33,3
+222,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,33,3
+223,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,33,28
+224,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,33,28
+225,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,33,28
+226,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,33,29
+227,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,33,29
+228,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,33,29
+229,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,33,30
+230,Colmillo,Esteban,Perro,Husky,Hembra,Terrestre,Mamifero,33,30
+231,Colmillo,Esteban,Perro,Husky,Macho,Terrestre,Mamifero,33,30
+232,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,37,7
+233,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,37,7
+234,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,37,7
+235,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,37,46
+236,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,37,46
+237,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,37,46
+238,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,37,47
+239,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,37,47
+240,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,37,47
+241,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,40,6
+242,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,40,6
+243,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,40,6
+244,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,40,43
+245,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,40,43
+246,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,40,43
+247,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,40,44
+248,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,40,44
+249,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,40,44
+250,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,42,6
+251,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,42,6
+252,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,42,6
+253,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,42,43
+254,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,42,43
+255,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,42,43
+256,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,42,44
+257,Mochuelo,Alba,Gato,Snowshoe,Hembra,Terrestre,Mamifero,42,44
+258,Mochuelo,Alba,Gato,Snowshoe,Macho,Terrestre,Mamifero,42,44
+259,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,45,7
+260,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,45,7
+261,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,45,7
+262,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,45,41
+263,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,45,41
+264,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,45,41
+265,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,48,6
+266,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,48,6
+267,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,48,6
+268,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,48,38
+269,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,48,38
+270,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,48,38
+271,Don Gato,Lucia,Gato,Persa,Macho,Terrestre,Mamifero,48,39
+272,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,48,39
+273,Don Gato,Lucia,Gato,Persa,Hembra,Terrestre,Mamifero,48,39
+274,null,null,Tucan,Toco,Macho,Aereo,Ave,49,11
+275,null,null,Tucan,Toco,Macho,Aereo,Ave,49,11
+276,null,null,Tucan,Toco,Hembra,Aereo,Ave,49,11
+277,null,null,Tucan,Toco,Hembra,Aereo,Ave,49,12
+278,null,null,Tucan,Toco,Macho,Aereo,Ave,49,12
+279,null,null,Tucan,Toco,Macho,Aereo,Ave,49,12
+280,null,null,Tucan,Toco,Macho,Aereo,Ave,52,10
+281,null,null,Tucan,Toco,Hembra,Aereo,Ave,52,10
+282,null,null,Tucan,Toco,Macho,Aereo,Ave,52,10
+283,null,null,Tucan,Toco,Hembra,Aereo,Ave,52,12
+284,null,null,Tucan,Toco,Macho,Aereo,Ave,52,12
+285,null,null,Tucan,Toco,Macho,Aereo,Ave,52,12
+286,null,null,Tucan,Toco,Hembra,Aereo,Ave,54,10
+287,null,null,Tucan,Toco,Hembra,Aereo,Ave,54,10
+288,null,null,Tucan,Toco,Macho,Aereo,Ave,54,10
+289,null,null,Tucan,Toco,Hembra,Aereo,Ave,54,12
+290,null,null,Tucan,Toco,Macho,Aereo,Ave,54,12
+291,null,null,Tucan,Toco,Macho,Aereo,Ave,54,12
+292,null,null,Tucan,Toco,Macho,Aereo,Ave,55,10
+293,null,null,Tucan,Toco,Macho,Aereo,Ave,55,10
+294,null,null,Tucan,Toco,Macho,Aereo,Ave,55,10
+295,null,null,Tucan,Toco,Macho,Aereo,Ave,55,11
+296,null,null,Tucan,Toco,Macho,Aereo,Ave,55,11
+297,null,null,Tucan,Toco,Hembra,Aereo,Ave,55,11
+298,null,null,Tucan,Toco,Macho,Aereo,Ave,57,10
+299,null,null,Tucan,Toco,Hembra,Aereo,Ave,57,10
+300,null,null,Tucan,Toco,Macho,Aereo,Ave,57,10
+301,null,null,Tucan,Toco,Hembra,Aereo,Ave,57,11
+302,null,null,Tucan,Toco,Hembra,Aereo,Ave,57,11
+303,null,null,Tucan,Toco,Hembra,Aereo,Ave,57,11
+304,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,60,15
+305,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,60,15
+306,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,60,15
+307,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,63,14
+308,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,63,14
+309,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,63,14
+310,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,63,64
+311,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,63,64
+312,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,63,64
+313,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,63,66
+314,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,63,66
+315,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,63,66
+316,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,65,15
+317,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,65,15
+318,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,65,15
+319,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,65,61
+320,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,65,61
+321,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,65,61
+322,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,65,62
+323,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,65,62
+324,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,65,62
+325,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,67,14
+326,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,67,14
+327,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,67,14
+328,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,67,58
+329,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,67,58
+330,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,67,58
+331,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,67,59
+332,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,67,59
+333,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,67,59
+334,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,68,14
+335,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,68,14
+336,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,68,14
+337,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,68,58
+338,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,68,58
+339,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,68,58
+340,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,68,59
+341,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,68,59
+342,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,68,59
+343,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,69,14
+344,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,69,14
+345,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,69,14
+346,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,69,58
+347,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,69,58
+348,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,69,58
+349,null,null,Pez payaso,Comun,Macho,Acuatico,Pez,69,59
+350,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,69,59
+351,null,null,Pez payaso,Comun,Hembra,Acuatico,Pez,69,59
+352,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,71,19
+353,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,71,19
+354,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,71,19
+355,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,71,79
+356,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,71,79
+357,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,71,79
+358,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,71,80
+359,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,71,80
+360,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,71,80
+361,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,71,81
+362,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,71,81
+363,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,71,81
+364,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,72,19
+365,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,72,19
+366,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,72,19
+367,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,72,79
+368,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,72,79
+369,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,72,79
+370,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,72,80
+371,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,72,80
+372,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,72,80
+373,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,72,81
+374,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,72,81
+375,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,72,81
+376,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,73,18
+377,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,73,18
+378,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,73,18
+379,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,73,76
+380,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,73,76
+381,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,73,76
+382,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,74,18
+383,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,74,18
+384,null,Francisco,Vaca,Rubia gallega,Macho,Terrestre,Mamifero,74,18
+385,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,74,76
+386,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,74,76
+387,null,Francisco,Vaca,Rubia gallega,Hembra,Terrestre,Mamifero,74,76
+388,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,77,19
+389,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,77,19
+390,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,77,19
+391,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,77,75
+392,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,77,75
+393,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,77,75
+394,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,78,19
+395,null,Alejandro,Vaca,Holstein,Macho,Terrestre,Mamifero,78,19
+396,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,78,19
+397,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,78,75
+398,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,78,75
+399,null,Alejandro,Vaca,Holstein,Hembra,Terrestre,Mamifero,78,75
+400,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,82,23
+401,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,82,23
+402,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,82,23
+403,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,82,91
+404,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,82,91
+405,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,82,91
+406,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,82,92
+407,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,82,92
+408,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,82,92
+409,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,83,23
+410,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,83,23
+411,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,83,23
+412,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,83,91
+413,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,83,91
+414,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,83,91
+415,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,83,92
+416,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,83,92
+417,null,Francisco,Oveja,Texel,Macho,Terrestre,Mamifero,83,92
+418,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,85,22
+419,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,85,22
+420,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,85,22
+421,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,85,89
+422,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,85,89
+423,null,Francisco,Oveja,Texel,Hembra,Terrestre,Mamifero,85,89
+424,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,88,23
+425,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,88,23
+426,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,88,23
+427,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,88,86
+428,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,88,86
+429,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,88,86
+430,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,88,87
+431,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,88,87
+432,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,88,87
+433,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,90,23
+434,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,90,23
+435,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,90,23
+436,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,90,86
+437,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,90,86
+438,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,90,86
+439,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,90,87
+440,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,90,87
+441,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,90,87
+442,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,93,22
+443,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,93,22
+444,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,93,22
+445,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,93,84
+446,null,Samuel,Oveja,Dorper,Hembra,Terrestre,Mamifero,93,84
+447,null,Samuel,Oveja,Dorper,Macho,Terrestre,Mamifero,93,84

@@ -1,13 +1,15 @@
 package org.campusdual.bootcamp.ingenieros.ejercicio_22.classes;
 
-import org.campusdual.bootcamp.ingenieros.ejercicio_13.classes.*;
+import org.campusdual.bootcamp.ingenieros.ejercicio_11.classes.IPropietario;
+import org.campusdual.bootcamp.ingenieros.ejercicio_14.classes.ISexual;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Granjero {
     //Atributos
     private String nombre;
-    private List<Animal> animales;
+    private List<ISexual> animales = new ArrayList<>();
 
     //Constructores
     public Granjero(String nombre) {
@@ -15,8 +17,14 @@ public class Granjero {
     }
 
     //Metodos
-    void agregarAnimal(Animal animal){
-        animales.add(animal);
+    public void asignarAnimales(List<ISexual> animales){
+        for(ISexual animal: animales){
+            if(animal instanceof IPropietario){
+                if(((IPropietario)animal).getPropietario().equals(this.getNombre())){
+                    this.animales.add(animal);
+                }
+            }
+        }
     }
 
     //Getters y Setters
@@ -28,11 +36,11 @@ public class Granjero {
         this.nombre = nombre;
     }
 
-    public List<Animal> getAnimales() {
+    public List<ISexual> getAnimales() {
         return animales;
     }
 
-    public void setAnimales(List<Animal> animales) {
+    public void setAnimales(List<ISexual> animales) {
         this.animales = animales;
     }
 

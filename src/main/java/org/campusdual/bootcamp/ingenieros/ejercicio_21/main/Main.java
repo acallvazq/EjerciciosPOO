@@ -5,6 +5,10 @@ import org.campusdual.bootcamp.ingenieros.ejercicio_14.classes.ISexual;
 import org.campusdual.bootcamp.ingenieros.ejercicio_19.classes.AnimalCSV;
 import org.campusdual.bootcamp.ingenieros.util.Input;
 
+/**********************************************************/
+/*        EJecutar previamente el ejercicio 19            */
+/*********************************************************/
+
 public class Main {
     public static void main(String[] args) {
         boolean salida = true;
@@ -20,7 +24,7 @@ public class Main {
 
             switch(Character.toUpperCase(respuesta)){
                 case 'A':
-                    mostrarAnimales();
+                    DatosAnimales.mostrarDatos();
                     break;
                 case 'C':
                     consultarAntepasados();
@@ -68,7 +72,7 @@ public class Main {
                 idPadre = ((Animal)animal).getIdPadre();
                 idMadre = ((Animal)animal).getIdMadre();
 
-                if(idPadre == 0 || idMadre == 0) return;
+                if(idPadre <= 0 || idMadre <= 0) return;
 
                 for(ISexual padre: Animal.animales){
                     if(idPadre == ((Animal)padre).getId()){
@@ -89,13 +93,5 @@ public class Main {
 
         buscarAntepasados(idPadre);
         buscarAntepasados(idMadre);
-    }
-
-    private static void mostrarAnimales(){
-        System.out.println("\nMostrando todos los animales...");
-
-        for (ISexual animal : Animal.animales) {
-            System.out.println(animal);
-        }
     }
 }
